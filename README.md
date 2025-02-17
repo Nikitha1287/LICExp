@@ -23,15 +23,20 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
    2. Now we define the aspects ration of the MOSFET to obtain the calculated Id value. Fix the value of length and vary the value of width(W) until we obtain the required drain current value.
    4. Check whether the mosfet is in saturation region, after defining the aspect ratio. In saturation region, Vds is greater than Vov(Overdrive voltage).
    5. Note down the values of DC Analysis.
+      ![Screenshot 2025-02-18 050356](https://github.com/user-attachments/assets/0f41656f-ff70-446d-9560-422308af03e2)
+
 7. Transient Analysis:
    1. Set the input gate voltage to sine wave with amplitude of 50mV and DC offset value to 0.9V.
    2. Then click on transient analysis.
    3. Observe the input and output waveforms.
+      ![Screenshot 2025-02-18 050559](https://github.com/user-attachments/assets/50201c56-58f6-4595-8313-28a7e3a96bec)
+
 8. AC Analysis:
    1. Go to spice directive and give the library file path for the simulator to access the data through the path .
    2. Go to simulate option in the tab , edit simulation command .
    3. Click on AC analysis and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.
    4. Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T)
+![Screenshot 2025-02-18 050811](https://github.com/user-attachments/assets/6bee813f-049a-4114-ae5d-8bca499988c7)
 
 ## **DC ANALYSIS:**
 ### For RD = 1KΩ
@@ -50,6 +55,3 @@ To perform DC analysis select DC operating point and run the simulation.
 
 The obtained DC operating point is (1.74 V , 55µ A).
 
-### For RD = 5Ω
-The Obtained DC operating value is (1.52 V , 55µ A).
-![image](https://github.com/user-attachments/assets/d3efd059-d264-45ed-9005-124e1b18363a)
