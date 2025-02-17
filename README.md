@@ -32,3 +32,16 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
    2. Go to simulate option in the tab , edit simulation command .
    3. Click on AC analysis and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.
    4. Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T)
+
+## **DC ANALYSIS:**
+For RD = 1K Ω
+Set the VDD to 1.8 V and the input voltage to 0.9 V linked to the gate terminal.Choose 1K Ω.
+
+Applying the formula, P = VI
+
+55µ A is the ID (Drain Current).
+
+Make sure the transistor is functioning in the saturation region, that is, VDS >= Vov, and set the W/L ratio such that it corresponds with the obtained ID value.
+Vov = VGS - VTH
+
+For the above ID value , the obtained W/L ratio is 203/180.
