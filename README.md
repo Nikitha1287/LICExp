@@ -34,7 +34,7 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
    4. Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T)
 
 ## **DC ANALYSIS:**
-For RD = 1K Ω
+### For RD = 1KΩ
 Set the VDD to 1.8 V and the input voltage to 0.9 V linked to the gate terminal.Choose 1K Ω.
 
 Applying the formula, P = VI
@@ -45,3 +45,11 @@ Make sure the transistor is functioning in the saturation region, that is, VDS >
 Vov = VGS - VTH
 
 For the above ID value , the obtained W/L ratio is 203/180.
+![Screenshot 2025-02-17 230031](https://github.com/user-attachments/assets/43c24a70-c77e-4b91-806a-be65daa84906)
+To perform DC analysis select DC operating point and run the simulation.
+
+The obtained DC operating point is (1.74 V , 55µ A).
+
+### For RD = 5Ω
+The Obtained DC operating value is (1.52 V , 55µ A).
+![image](https://github.com/user-attachments/assets/d3efd059-d264-45ed-9005-124e1b18363a)
