@@ -148,4 +148,4 @@ Gain: 4dB
 2. By altering the MOSFET's size -M1 -The drain current does not change significantly when the width of PMOS is changed (i.e., ID is not affected greatly). -M2-The drain current drastically changes when the NMOS width is changed.
 3. An increase in width results in a larger gain.
 4. PMOS functions as a resistor that is linear. Phase shift between the input and output waveforms of 180 degrees.
-5. The gain of the CMOS amplifier is 4 dB.The output signal is nearly six times greater than the input signal, for example.
+5. The gain of the CMOS amplifier is 4 dB.The output signal is four times greater than the input signal, for example.
