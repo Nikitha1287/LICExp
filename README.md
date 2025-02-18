@@ -132,7 +132,7 @@ ID=55.5uA
 ![Screenshot 2025-02-18 060934](https://github.com/user-attachments/assets/e6c63e5d-9cf1-432d-b6e2-a7126267312b)
 1. 55µ A is the ID (Drain Current).
 2. For the above ID value , the obtained W/L ratio is 233nm/180nm.L=180nm,W=233nm
-3. The obtained DC operating point is (1.74 V , 55µ A).
+3. The obtained DC operating point is (1.8V , 55µA).
 
 
 ## **II. TRANSIENT ANANLYSIS:**
