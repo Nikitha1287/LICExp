@@ -52,19 +52,18 @@ Gain(Av) = Vout/Vin
 Av = 1.744/900m
 Av=1.937777777777778
 ## **RESULT:**
-## **I. DC ANALYSIS:**
-### For RD = 1KΩ
+### **I. DC ANALYSIS:**
 1. 55µ A is the ID (Drain Current).
 2. For the above ID value , the obtained W/L ratio is 203nm/180nm.L=180nm,W=203nm
 ![Screenshot 2025-02-17 230031](https://github.com/user-attachments/assets/43c24a70-c77e-4b91-806a-be65daa84906)
 3. The obtained DC operating point is (1.74 V , 55µ A).
 
-## **II. TRANSIENT ANANLYSIS:**
+### **II. TRANSIENT ANANLYSIS:**
 ![Screenshot 2025-02-17 232059](https://github.com/user-attachments/assets/897a3c13-1977-4248-b453-2b15598504f5)
 1. There is 180 degree phase shift between input and output.
 2. Gain=1.937777777777778
 
-## **AC ANALYSIS:**
+### **III. AC ANALYSIS:**
 ![Screenshot 2025-02-17 232518](https://github.com/user-attachments/assets/99f81b8a-4b0d-4bef-a22a-f593dd88fbfa)
 Gain=4dB
 ## **INFERENCE:**
