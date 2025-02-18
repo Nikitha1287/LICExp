@@ -140,6 +140,7 @@ ID=55.5uA
 ## **AC ANALYSIS:**
 ![Screenshot 2025-02-18 062651](https://github.com/user-attachments/assets/cf87ec4b-6d43-4b98-85c9-9b79e45da0a4)
 
+## **INFERENCE:**
 1. The drain current is directly impacted by the MOSFET's width.
 2. By altering the MOSFET's size -M1 -The drain current does not change significantly when the width of PMOS is changed (i.e., ID is not affected greatly). -M2-The drain current drastically changes when the NMOS width is changed.
 3. An increase in width results in a larger gain.
