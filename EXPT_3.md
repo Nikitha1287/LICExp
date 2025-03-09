@@ -10,3 +10,5 @@ Vout=Av(Vin1-Vin2), where Av is the differential gain of the amplifier.
 The differential amplifier doesn't require coupling capacitors. As the noise is rejected by the common rejection mode(By suppressing the common input voltages). The output is amplification(gain multiplied to the difference between the two inputs) of the difference of input signals.
 
 ## **ADVANTAGES:**
+1. **Noise Reduction:** Suppress noise by cancelling common mode signals.
+2. **High Impedance:** High impedance at both input and output terminals.
