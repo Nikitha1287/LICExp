@@ -12,3 +12,11 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 ## **ADVANTAGES:**
 1. **Noise Reduction:** Suppress noise by cancelling common mode signals.
 2. **High Impedance:** High impedance at both input and output terminals.
+3. **Improved Voltage Swing:** Larger dynamic range than common source amplifiers.
+4. **Small phase shift:** Small phase shift between input and output.
+
+## **APPLICATIONS:**
+1. **Noise suppression**
+2. **Communication**
+
+## **
