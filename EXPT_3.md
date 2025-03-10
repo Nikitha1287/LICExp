@@ -19,4 +19,6 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 1. **Noise suppression**
 2. **Communication**
 
-## **
+## **COMPARISON BETWEEN DIFFERENTIAL AMPLIFIERS AND COMMON SOURCE AMPLIFIER:**
+1. Differential Amplifiers have two input terminals and Common Source amplifiers have single input terminal.
+2. 
