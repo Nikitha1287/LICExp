@@ -55,7 +55,11 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 
 # **CIRCUIT 1: Differential Amplifier with Load Resistor**
 ## **COMPONENTS REQUIRED:**
-
+1. Resistors: 1.89921kohm(2),0.4kohm(1),
+2. NMOS - 2,
+3. Supply volatge:2.2V(1), 1.2V(2)
+4. ac ground,
+5. Connecting wires.
 ## **CIRCUIT DIAGRAM:**
 
 ![Screenshot 2025-03-10 012058](https://github.com/user-attachments/assets/96e64d79-2c4a-4bde-98bd-d65c4ce80f70)
