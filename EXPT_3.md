@@ -3,13 +3,16 @@
 Design and analyze the differential amplifier for the following specification, VDD=2.2V, P<=2.2mW, Vin(CM)=1.2V,Vo(CM)=1.25V, Vp=0.4V. Perform DC analysis, Transient analysis, Frequency response and extract parameters.
 
 # **DIFFERENTIAL AMPLIFIER:**
-![Screenshot 2025-03-08 065620](https://github.com/user-attachments/assets/3723883c-ccbd-4b8b-a3ca-f1d688b8a0de)
+
+![Screenshot 2025-03-11 045431](https://github.com/user-attachments/assets/e6118dc4-f333-4d2d-bb37-d8c57f63700e)
+
 
 ## **INTRODUCTION:**
 A differential amplifier is a amplifier configuration that consists of two identical MOSFETs, with the same transistor biasing point. This amplifier amplifies the difference between the two input voltage signals and rejects the common mode voltages. Let Vin1 and Vin2 be the two input gate voltages for each MOSFET, then the output voltage Vout is given by:
 
 **Vout=Av(Vin1-Vin2)**, where Av is the differential gain of the amplifier. 
 The differential amplifier doesn't require coupling capacitors. As the noise is rejected by the common rejection mode(By suppressing the common input voltages). The output is amplification(gain multiplied to the difference between the two inputs) of the difference of input signals.
+![Screenshot 2025-03-11 045443](https://github.com/user-attachments/assets/74df841c-58ac-4938-aead-d92874fb9518)
 
 ## **ADVANTAGES:**
 1. **Noise Reduction:** Suppress noise by cancelling common mode signals.
@@ -28,13 +31,17 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 3. Differential Amplifier is designed to reject the common mode signals and apply gain to the difference between inputs.
    Common Source.
 ## **TYPES OF DIFFERENTIAL AMPLIFIER:**
-1. Differential Amplifier with Load Resistor
-2. Differential Amplifier with Current Source
+1. CIRCUIT 1: Differential Amplifier with Load Resistor
+2. CIRCUIT 2: Differential Amplifier with Current Source
+   
+![Screenshot 2025-03-11 045459](https://github.com/user-attachments/assets/25fd18ef-d23b-4b54-878d-4bea5865b636)
 
+3. CIRCUIT 3: Differential Amplifier with Acyive load
 
 
 ## **CIRCUIT ANALYSIS:**
 
+![Screenshot 2025-03-11 045510](https://github.com/user-attachments/assets/585dd92a-0659-4013-a3e2-67ca5ed5a739)
 
 
 
@@ -48,6 +55,7 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 
 # **CIRCUIT 1: Differential Amplifier with Load Resistor**
 ## **COMPONENTS REQUIRED:**
+
 ## **CIRCUIT DIAGRAM:**
 
 ![Screenshot 2025-03-10 012058](https://github.com/user-attachments/assets/96e64d79-2c4a-4bde-98bd-d65c4ce80f70)
