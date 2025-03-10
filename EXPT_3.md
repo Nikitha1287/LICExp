@@ -24,4 +24,4 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 2. In Differential Amplifier the output is proportional to the difference between the two input signals.
    In Common Source Amplifier the output is taken from the drain and is proportional to the input signal, but referenced to ground. 
 3. Differential Amplifier is designed to reject the common mode signals and apply gain to the difference between inputs.
-   Common Source  
+   Common Source.
