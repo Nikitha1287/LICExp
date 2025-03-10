@@ -28,3 +28,79 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 ## **TYPES OF DIFFERENTIAL AMPLIFIER:**
 1. Differential Amplifier with Load Resistor
 2. Differential Amplifier with Current Source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Screenshot 2025-03-10 012058](https://github.com/user-attachments/assets/96e64d79-2c4a-4bde-98bd-d65c4ce80f70)
+
+Differential Amplifier with load resistor
+
+![Screenshot 2025-03-10 012123](https://github.com/user-attachments/assets/cd36c812-a731-43cb-93f7-3e6f65bef39f)
+DC op point
+
+
+
+
+
+
+
+![Screenshot 2025-03-10 012208](https://github.com/user-attachments/assets/7d26f935-b125-4fbc-b3b1-ba99b88cb1f9)
+
+DC analysis
+
+
+
+
+
+
+![Screenshot 2025-03-10 012255](https://github.com/user-attachments/assets/132acedc-866d-4d93-a919-1571a8692993)
+
+Transient Analysis
+
+
+
+
+
+![Screenshot 2025-03-10 012322](https://github.com/user-attachments/assets/7f94e7f8-08fc-4ddf-9dc3-a4747023a77c)
+Transient Analysis
+
+
+
+![Screenshot 2025-03-10 012450](https://github.com/user-attachments/assets/1c280a14-62d5-41e0-9139-3f5fd30dbcf0)
+
+Sine wave
+
+
+![Screenshot 2025-03-10 012501](https://github.com/user-attachments/assets/fad98043-3f5b-4530-8573-a7108e761273)
+
+Sine wave
+
+
+![Screenshot 2025-03-10 012619](https://github.com/user-attachments/assets/c5de68c0-524a-4f3f-a247-db22e56471c2)
+
+
+![Screenshot 2025-03-10 012934](https://github.com/user-attachments/assets/b6fb0d51-ca16-4d4f-92da-2ebefb366e74)
+
+
+
+![Screenshot 2025-03-10 013011](https://github.com/user-attachments/assets/ae0c4cca-d2f7-48f7-8e3c-b403f2997210)
+
+
+
+
+
+
+
+
