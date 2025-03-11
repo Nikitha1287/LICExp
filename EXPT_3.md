@@ -90,5 +90,35 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 2. I<sub>D</sub>=I<sub>SS</sub>/2
 3. V<sub>DS</sub>=V<sub>O(CM)</sub>-V<sub>P</sub>
 4. V<sub>O(CM)</sub>=V<sub>DD</sub>-(I<sub>D</sub>* R<sub>D</sub>)
+5. V<sub>P</sub>= I<sub>SS</sub>* R<sub>SS</sub>
+6. V<sub>IN(CM)</sub>=V<sub>GS</sub>+V<sub>P</sub>
+7. V<sub>OV</sub>= V<sub>GS</sub>-V<sub>TH</sub>
+8. V<sub>IN(max)</sub>=V<sub>O(CM)</sub>+V<sub>TH</sub>
+9. V<sub>IN(min)</sub>=sqrt(2)*V<sub>OV</sub>
+10. g<sub>m</sub>=(2*I<sub>D</sub>)/V<sub>OV</sub>
+11. A<sub>V</sub>=-g<sub>m</sub>*R<sub>D</sub>
+12. A<sub>V</sub>(in dB)=20*log<sub>10</sub>*(A<sub>V</sub>)
 
+### **Substitution:**
+1. P=1mW, V<sub>DD</sub>=2.2V, V<sub>IN(CM)</sub>=1.2V, V<sub>O(CM)</sub>=1.25V, V<sub>P</sub>=0.4V 
+2. I<sub>SS</sub>=P/V<sub>DD</sub>=2.2mW/2.2=1mA
+3. I<sub>D(CM)</sub>=1mA/2=0.5mA
+4. V<sub>DS</sub>=1.25V-0.4V=0.85V
+5. R<sub>D</sub>=(V<sub>DD</sub>-V<sub>O(CM)</sub>)/I<sub>D</sub>=(2.2-1.25)V/1mA=1.9kohm
+6. R<sub>SS</sub>=V<sub>P</sub>/I<sub>SS</sub>=o.4V/1mA=400ohm
+7. V<sub>GS</sub>=V<sub>IN(CM)</sub>-V<sub>P</sub>=1.2V-0.4V=0.8V
+8. V<sub>OV</sub>=V<sub>GS</sub>-V<sub>TH</sub>=0.8v-0.3662V=0.4338V
+9. V<sub>IN(max)</sub>=1.25V+0.3662V=1.6162V
+10. V<sub>IN(min)</sub>=sqrt(2)*0.4338V=0.613V
+11. g<sub>m</sub>=0.002A/V
+12. A<sub>V</sub>=3.798A/V<sup>2</sup>
+13. A<sub>V</sub>=11.59dB
 
+## **RESULT:**
+1. DC Analysis:
+
+![Screenshot 2025-03-10 012208](https://github.com/user-attachments/assets/dd3bef34-333b-4384-8e62-38bad1a73249)
+
+DC operating point:
+V<sub>O<sub>1</sub></sub>
+   
