@@ -53,6 +53,7 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 3. Supply volatge:2.2V(1), 1.2V(2)
 4. ac ground,
 5. Connecting wires.
+
 ## **CIRCUIT DIAGRAM:**
 
 ![Screenshot 2025-03-10 012058](https://github.com/user-attachments/assets/96e64d79-2c4a-4bde-98bd-d65c4ce80f70)
@@ -115,10 +116,104 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 13. A<sub>V</sub>=11.59dB
 
 ## **RESULT:**
-1. DC Analysis:
+**1. DC Analysis:**
 
 ![Screenshot 2025-03-10 012208](https://github.com/user-attachments/assets/dd3bef34-333b-4384-8e62-38bad1a73249)
 
 DC operating point:
-V<sub>O<sub>1</sub></sub>
-   
+V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
+V<sub>DD</sub>=2.2V
+V<sub>IN(CM)</sub>=1.2V
+V<sub>P</sub>=0.40165
+I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
+
+**2. Transient Analysis:**
+1. For V<sub>IN</sub> amplitude = 50mV, V<sub>IN(pp)</sub>=100mV
+![Screenshot 2025-03-10 012619](https://github.com/user-attachments/assets/2002204f-6fc4-4e6e-a042-4576917ec1ed)
+V<sub>O</sub>=1.4681V-1.0239V=0.442V
+A<sub>V</sub>=0.442/0.1=4.42
+
+2. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
+  
+   ![Screenshot 2025-03-11 032910](https://github.com/user-attachments/assets/fdc977c7-1aa0-460c-b29b-5006c9af7fed)
+V<sub>O</sub>=1.8899V-0.8108V=1.0791V
+A<sub>V</sub>=1.0791V/0.2=5.3955
+
+
+![Screenshot 2025-03-11 033127](https://github.com/user-attachments/assets/66c94e9f-acdd-458a-a4d0-14df8d2eff62)
+
+Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
+
+**2. AC Analysis:**
+
+![Screenshot 2025-03-11 034405](https://github.com/user-attachments/assets/7a9d73e3-613c-4e6a-b448-d23aefd7150a)
+
+![Screenshot 2025-03-11 034439](https://github.com/user-attachments/assets/753741b9-9e10-459c-bbef-a28ceab51879)
+
+-3dB bandwidth=1.4890MHz
+
+
+# **CIRCUIT 2: Differential Amplifier with Current Source**
+## **COMPONENTS REQUIRED:**
+1. Resistors: 1.9kohm(2),
+2. NMOS - 2,
+3. Supply volatge:2.2V(1), 1.2V(2)
+4. ac ground,
+5. Connecting wires,
+6. Current source: 1mA(1).
+
+## **CIRCUIT DIAGRAM:**
+
+![Screenshot 2025-03-11 035228](https://github.com/user-attachments/assets/359d5114-a25b-499e-8ed6-d40bef0afcc6)
+
+## **RESULT:**
+**1. DC Analysis:**
+TRIAL 1:
+
+![Screenshot 2025-03-11 035244](https://github.com/user-attachments/assets/6e19fb31-1803-4510-b3b3-eb7677482a56)
+
+V<sub>O</sub> changes to 1.2504V in the first trial, so we increase the R<sub>D</sub> value slightly in order to decrease V<sub>O</sub> value to 1.25V exactly.
+
+TRIAL 2:
+We get R<sub>D</sub>=1.9kohm
+
+![Screenshot 2025-03-11 035533](https://github.com/user-attachments/assets/3296c675-0eb7-4afd-9515-d05cbdc2ee3e)
+
+![Screenshot 2025-03-11 035555](https://github.com/user-attachments/assets/680c1217-d1d9-4c47-a694-66c964952dc3)
+
+
+**2. Transient Analysis:**
+ 1. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
+
+![Screenshot 2025-03-11 035745](https://github.com/user-attachments/assets/bb43f7e0-db2d-41fc-9e12-dcab5588fd8a)
+
+V<sub>O</sub>=1.6802V-0.8227V=0.8575V
+A<sub>V</sub>=4.2875
+
+![Screenshot 2025-03-11 035924](https://github.com/user-attachments/assets/d31b3c15-0061-4558-8c1d-bd14e330db77)
+
+
+Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
+
+**2. AC Analysis:**
+
+![Screenshot 2025-03-11 040105](https://github.com/user-attachments/assets/f8b3f967-5335-445a-81ae-208ce462e6dd)
+
+
+![Screenshot 2025-03-11 040323](https://github.com/user-attachments/assets/cafb081c-2d10-4338-95fd-b3648d8b6e6c)
+
+-3dB bandwidth = 695.192kHz
+
+
+# **CIRCUIT 2: Differential Amplifier with Active Load**
+## **COMPONENTS REQUIRED:**
+1. Resistors: 1.9kohm(2),
+2. NMOS - 3(identical),
+3. Supply volatge:2.2V(1), 1.2V(2), 0.993506V(1),
+4. ac ground,
+5. Connecting wires.
+
+## **CIRCUIT DIAGRAM:**
+
+![Screenshot 2025-03-11 041819](https://github.com/user-attachments/assets/ea9e5501-ef36-4f78-bbb9-23ec302336e2)
+
