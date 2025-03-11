@@ -85,7 +85,10 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 ![Screenshot 2025-03-11 033306](https://github.com/user-attachments/assets/57692b49-6802-4b1b-9ced-537a5a17e161)
 
 ## **CALCULATION:**
-
-
+### **Formulae:**
+1. P=V<sub>DD</sub>*I<sub>SS</sub>
+2. I<sub>D</sub>=I<sub>SS</sub>/2
+3. V<sub>DS</sub>=V<sub>O(CM)</sub>-V<sub>P</sub>
+4. V<sub>O(CM)</sub>=V<sub>DD</sub>-(I<sub>D</sub>* R<sub>D</sub>)
 
 
