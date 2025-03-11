@@ -36,22 +36,15 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
    
 ![Screenshot 2025-03-11 045459](https://github.com/user-attachments/assets/25fd18ef-d23b-4b54-878d-4bea5865b636)
 
-3. CIRCUIT 3: Differential Amplifier with Acyive load
+3. CIRCUIT 3: Differential Amplifier with Active load
 
 
 ## **CIRCUIT ANALYSIS:**
 
 ![Screenshot 2025-03-11 045510](https://github.com/user-attachments/assets/585dd92a-0659-4013-a3e2-67ca5ed5a739)
-
-
-
-
-
-
-
-
-
-
+1. Perform DC Analysis and set the Q-point.
+2. Then perform Ac analysis and analyze the differential gain of the circuit. 
+3. Then find out the frequency response graph and deduce the -3dB gain and bandwidth of the ciruit.
 
 # **CIRCUIT 1: Differential Amplifier with Load Resistor**
 ## **COMPONENTS REQUIRED:**
@@ -64,61 +57,34 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 
 ![Screenshot 2025-03-10 012058](https://github.com/user-attachments/assets/96e64d79-2c4a-4bde-98bd-d65c4ce80f70)
 
-
+## PROCEDURE:
+1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.89921kohm, and R<sub>SS</sub> value to 400ohm.
+3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
+4. Name the nmos as CMOSN according to the library file.
+5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
+6. DC analysis: Go to Run option, and select DC op and click on run. Observe the V<sub>OUT</sub>, I<sub>SS</sub>, V<sub>P</sub>. Vary the aspect ration and R<sub>D</sub> value in order to meet the design requirements.
 
 ![Screenshot 2025-03-10 012123](https://github.com/user-attachments/assets/cd36c812-a731-43cb-93f7-3e6f65bef39f)
-DC op point
 
-
-
-
-
-
-
-![Screenshot 2025-03-10 012208](https://github.com/user-attachments/assets/7d26f935-b125-4fbc-b3b1-ba99b88cb1f9)
-
-DC analysis
-
-
-
-
-
+7. Transient analysis: Go to edit simulation option. Change from dc op to transient analysis. Set the dc offset as 1.2V, Amplitude 50mV, frequency 1KHz. Keep stop time for 5ms and run to get the expected waveform. Take the difference of V<sub>out1</sub> and V<sub>out2</sub> waveforms,and calculate the diffrential gain. Also note down for what value of input amplitude the distortion starts to occur by varying the input amplitude. Then set the amplitude value to 100mV and repeat the same. Since we get the better gain for this input amplitude, we continue with this amplitude.
 
 ![Screenshot 2025-03-10 012255](https://github.com/user-attachments/assets/132acedc-866d-4d93-a919-1571a8692993)
 
-Transient Analysis
-
-
-
-
-
-![Screenshot 2025-03-10 012322](https://github.com/user-attachments/assets/7f94e7f8-08fc-4ddf-9dc3-a4747023a77c)
-Transient Analysis
-
-
-
 ![Screenshot 2025-03-10 012450](https://github.com/user-attachments/assets/1c280a14-62d5-41e0-9139-3f5fd30dbcf0)
-
-Sine wave
-
 
 ![Screenshot 2025-03-10 012501](https://github.com/user-attachments/assets/fad98043-3f5b-4530-8573-a7108e761273)
 
-Sine wave
+![Screenshot 2025-03-11 032741](https://github.com/user-attachments/assets/05ca1747-443a-4cc0-85b1-abb803a68ce5)
+
+![Screenshot 2025-03-11 032754](https://github.com/user-attachments/assets/cc0353c3-b13a-4c13-8559-6c52801f5ca8)
 
 
-![Screenshot 2025-03-10 012619](https://github.com/user-attachments/assets/c5de68c0-524a-4f3f-a247-db22e56471c2)
+8. AC analysis : Go to edit simulation option. Change from transient analysis to ac analysis. Set type of sweep as decade, number of points per decade as 20, start and stop frequency as 0.1Hz and 1THz respectively to get the expected ac waveform(Frequency response graph). Note down the -3dB gain of the circuit and the bandwidth.
 
+![Screenshot 2025-03-11 033306](https://github.com/user-attachments/assets/57692b49-6802-4b1b-9ced-537a5a17e161)
 
-![Screenshot 2025-03-10 012934](https://github.com/user-attachments/assets/b6fb0d51-ca16-4d4f-92da-2ebefb366e74)
-
-
-
-![Screenshot 2025-03-10 013011](https://github.com/user-attachments/assets/ae0c4cca-d2f7-48f7-8e3c-b403f2997210)
-
-
-
-
+## **CALCULATION:**
 
 
 
