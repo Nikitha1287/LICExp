@@ -168,9 +168,6 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 ![Screenshot 2025-03-11 035228](https://github.com/user-attachments/assets/359d5114-a25b-499e-8ed6-d40bef0afcc6)
 
 
-## **CALCULATIONS:**
-
-
 ## **RESULT:**
 **1. DC Analysis:**
 
@@ -180,7 +177,7 @@ V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
 V<sub>DD</sub>=2.2V
 V<sub>IN(CM)</sub>=1.2V
 V<sub>P</sub>=0.40165
-I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
+I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.500mA
 
 
 TRIAL 1:
@@ -252,8 +249,11 @@ I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
 
 **2. Transient Analysis:**
  1. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
+
 ![image](https://github.com/user-attachments/assets/cd2d510d-15a5-4d61-87da-e0d43d95a50e)
 
+V<sub>O</sub>=1.6802V-0.8227V=0.8575V
+A<sub>V</sub>=4.2875
 
 ![image](https://github.com/user-attachments/assets/8c89efa3-ee8a-4d4a-8f38-9ee7dfeb7468)
 
