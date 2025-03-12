@@ -147,8 +147,6 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
 **3. AC Analysis:**
 
-![Screenshot 2025-03-11 034405](https://github.com/user-attachments/assets/7a9d73e3-613c-4e6a-b448-d23aefd7150a)
-
 ![Screenshot 2025-03-11 034439](https://github.com/user-attachments/assets/753741b9-9e10-459c-bbef-a28ceab51879)
 
 -3dB bandwidth=1.4890MHz
@@ -302,6 +300,8 @@ Differential Gain=(0.8549-(-0.8587))/0.2=8.568dB
 7. Transient analysis: Go to edit simulation option. Change from dc op to transient analysis. Set the dc offset as 1.2V, Amplitude 50mV, frequency 1KHz. Keep stop time for 5ms and run to get the expected waveform. Take the difference of V<sub>out1</sub> and V<sub>out2</sub> waveforms,and calculate the diffrential gain. Also note down for what value of input amplitude the distortion starts to occur by varying the input amplitude. Then set the amplitude value to 100mV and repeat the same. Since we get the better gain for this input amplitude, we continue with this amplitude.
 8. AC analysis : Go to edit simulation option. Change from transient analysis to ac analysis. Set type of sweep as decade, number of points per decade as 20, start and stop frequency as 0.1Hz and 1THz respectively to get the expected ac waveform(Frequency response graph). Note down the -3dB gain of the circuit and the bandwidth.
 
+
+## **RESULT:**
 **1. DC Analysis:**
 
 DC operating point:
@@ -326,3 +326,15 @@ Differential Gain=(0.1743-(-1740))/0.2=1.735dB
 ![image](https://github.com/user-attachments/assets/e5df9868-7ad4-408b-847a-86f86eac278f)
 
 -3dB bandwidth=5.633kHz
+
+# **COMPARISON TABLE:**
+
+|  CIRCUIT   |   
+|------------|----------------|
+| CIRCUIT 1  |
+|------------|                |
+| CIRCUIT 2  |                |
+|------------|                |
+| CIRCUIT 3  |                |
+|------------|
+| CIRCUIT 4  |
