@@ -239,3 +239,35 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 
 ![image](https://github.com/user-attachments/assets/37cb23c3-e669-4fca-8e2c-aa59faa6ffa2)
 
+
+
+
+![image](https://github.com/user-attachments/assets/10a8f42d-0611-4dc0-9be2-87142a8817d5)
+
+
+
+
+![image](https://github.com/user-attachments/assets/38394eb0-04ad-42e0-89c0-a355a0d7b03c)
+
+
+![image](https://github.com/user-attachments/assets/1eef11ab-452b-40e5-a0c3-599768abad4d)
+
+
+![image](https://github.com/user-attachments/assets/f52e8ae2-7ccc-4660-a80a-79ad15fc6236)
+
+![image](https://github.com/user-attachments/assets/80c988b3-d5ad-427b-90a9-a8e556e6e5a9)
+
+
+![image](https://github.com/user-attachments/assets/b8273cd3-9234-4b51-a280-82ebcbe7e10c)
+
+![image](https://github.com/user-attachments/assets/38fa750a-3162-4ce8-be85-3dd0cd113b9c)
+
+
+![image](https://github.com/user-attachments/assets/fcf49d12-d6c5-4975-adc5-2fa868a9aae8)
+
+
+
+
+![image](https://github.com/user-attachments/assets/e5df9868-7ad4-408b-847a-86f86eac278f)
+
+
