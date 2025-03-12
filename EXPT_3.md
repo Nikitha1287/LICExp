@@ -31,12 +31,13 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 3. Differential Amplifier is designed to reject the common mode signals and apply gain to the difference between inputs.
    Common Source.
 ## **TYPES OF DIFFERENTIAL AMPLIFIER:**
-1. CIRCUIT 1: Differential Amplifier with Load Resistor
-2. CIRCUIT 2: Differential Amplifier with Current Source
+1. CIRCUIT 1: Differential Amplifier with Load Resistor.
+2. CIRCUIT 2: Differential Amplifier with Current Source.
    
 ![Screenshot 2025-03-11 045459](https://github.com/user-attachments/assets/25fd18ef-d23b-4b54-878d-4bea5865b636)
 
-3. CIRCUIT 3: Differential Amplifier with Active load
+3. CIRCUIT 3: Differential Amplifier with Active load.
+4. CIRCUIT 4: Differential Amplifier.
 
 
 ## **CIRCUIT ANALYSIS:**
@@ -144,7 +145,7 @@ A<sub>V</sub>=1.0791V/0.2=5.3955
 
 Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
-**2. AC Analysis:**
+**3. AC Analysis:**
 
 ![Screenshot 2025-03-11 034405](https://github.com/user-attachments/assets/7a9d73e3-613c-4e6a-b448-d23aefd7150a)
 
@@ -238,9 +239,19 @@ V<sub>bias</sub>=0.4V+0.3662V=0.7662V
 
 ![Screenshot 2025-03-11 041819](https://github.com/user-attachments/assets/ea9e5501-ef36-4f78-bbb9-23ec302336e2)
 
+**1. DC Analysis:**
+
+DC operating point:
+V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
+V<sub>DD</sub>=2.2V
+V<sub>IN(CM)</sub>=1.2V
+V<sub>P</sub>=0.40165
+I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
 
 ![image](https://github.com/user-attachments/assets/cd7adf7f-2688-4987-852b-0b100cd89a89)
 
+**2. Transient Analysis:**
+ 1. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
 ![image](https://github.com/user-attachments/assets/cd2d510d-15a5-4d61-87da-e0d43d95a50e)
 
 
@@ -254,6 +265,8 @@ V<sub>bias</sub>=0.4V+0.3662V=0.7662V
 
 
 ![image](https://github.com/user-attachments/assets/5d4731ce-aedf-401e-a788-45a6da4bcccf)
+
+**3. AC Analysis:**
 
 ![image](https://github.com/user-attachments/assets/0b308a69-8e7d-4b00-93ab-591c0dd4fde3)
 
@@ -275,11 +288,11 @@ V<sub>bias</sub>=0.4V+0.3662V=0.7662V
 ![image](https://github.com/user-attachments/assets/10a8f42d-0611-4dc0-9be2-87142a8817d5)
 
 
-
+**1. DC Analysis:**
 
 ![image](https://github.com/user-attachments/assets/38394eb0-04ad-42e0-89c0-a355a0d7b03c)
 
-
+**2. Transient Analysis:**
 ![image](https://github.com/user-attachments/assets/1eef11ab-452b-40e5-a0c3-599768abad4d)
 
 
@@ -292,10 +305,9 @@ V<sub>bias</sub>=0.4V+0.3662V=0.7662V
 
 ![image](https://github.com/user-attachments/assets/38fa750a-3162-4ce8-be85-3dd0cd113b9c)
 
+**3. AC Analysis:**
 
 ![image](https://github.com/user-attachments/assets/fcf49d12-d6c5-4975-adc5-2fa868a9aae8)
-
-
 
 
 ![image](https://github.com/user-attachments/assets/e5df9868-7ad4-408b-847a-86f86eac278f)
