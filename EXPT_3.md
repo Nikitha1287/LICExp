@@ -242,8 +242,8 @@ DC operating point:
 V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
 V<sub>DD</sub>=2.2V
 V<sub>IN(CM)</sub>=1.2V
-V<sub>P</sub>=0.40165
-I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
+V<sub>P</sub>=0.400255V
+I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.4999mA
 
 ![image](https://github.com/user-attachments/assets/cd7adf7f-2688-4987-852b-0b100cd89a89)
 
@@ -252,8 +252,9 @@ I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
 
 ![image](https://github.com/user-attachments/assets/cd2d510d-15a5-4d61-87da-e0d43d95a50e)
 
-V<sub>O</sub>=1.6802V-0.8227V=0.8575V
-A<sub>V</sub>=4.2875
+V<sub>O</sub>=1.6767V-0.818V=0.8587V
+A<sub>V</sub>=4.2935
+Differential Gain=(0.8549-(-0.8587))/0.2=8.568dB
 
 ![image](https://github.com/user-attachments/assets/8c89efa3-ee8a-4d4a-8f38-9ee7dfeb7468)
 
@@ -273,7 +274,7 @@ A<sub>V</sub>=4.2875
 
 ![image](https://github.com/user-attachments/assets/37cb23c3-e669-4fca-8e2c-aa59faa6ffa2)
 
-
+-3dB bandwidth=810.12KHz
 
 
 # **CIRCUIT 4: Differential Amplifier**
@@ -290,18 +291,21 @@ A<sub>V</sub>=4.2875
 
 **1. DC Analysis:**
 
+DC operating point:
+V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
+V<sub>DD</sub>=2.2V
+V<sub>IN(CM)</sub>=1.2V
+V<sub>P</sub>=0.400255V
+I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.4999mA
+
 ![image](https://github.com/user-attachments/assets/38394eb0-04ad-42e0-89c0-a355a0d7b03c)
 
 **2. Transient Analysis:**
-![image](https://github.com/user-attachments/assets/1eef11ab-452b-40e5-a0c3-599768abad4d)
+ 1. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
+V<sub>O</sub>=1.345V-1.170V=0.175V
+A<sub>V</sub>=0.875
+Differential Gain=(0.1743-(-1740))/0.2=1.735dB
 
-
-![image](https://github.com/user-attachments/assets/f52e8ae2-7ccc-4660-a80a-79ad15fc6236)
-
-![image](https://github.com/user-attachments/assets/80c988b3-d5ad-427b-90a9-a8e556e6e5a9)
-
-
-![image](https://github.com/user-attachments/assets/b8273cd3-9234-4b51-a280-82ebcbe7e10c)
 
 ![image](https://github.com/user-attachments/assets/38fa750a-3162-4ce8-be85-3dd0cd113b9c)
 
