@@ -103,7 +103,7 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 
 ### **Substitution:**
 1. P=1mW, V<sub>DD</sub>=2.2V, V<sub>IN(CM)</sub>=1.2V, V<sub>O(CM)</sub>=1.25V, V<sub>P</sub>=0.4V 
-2. I<sub>SS</sub>=P/V<sub>DD</sub>=2.2mW/2.2=1mA
+2. I<sub>SS</sub>=P/V<sub>DD</sub>=2.2 mW/2.2 = 1 mA
 3. I<sub>D(CM)</sub>=1mA/2=0.5mA
 4. V<sub>DS</sub>=1.25V-0.4V=0.85V
 5. R<sub>D</sub>=(V<sub>DD</sub>-V<sub>O(CM)</sub>)/I<sub>D</sub>=(2.2-1.25)V/1mA=1.9kohm
@@ -122,28 +122,28 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 ![Screenshot 2025-03-10 012208](https://github.com/user-attachments/assets/dd3bef34-333b-4384-8e62-38bad1a73249)
 
 DC operating point:
-V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
-V<sub>DD</sub>=2.2V
-V<sub>IN(CM)</sub>=1.2V
-V<sub>P</sub>=0.40165
+V<sub>O<sub>1</sub></sub> = V<sub>O<sub>2</sub></sub> = 1.25V
+V<sub>DD</sub>=  2.2V
+V<sub>IN(CM)</sub> = 1.2V
+V<sub>P</sub> = 0.40165
 I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
 
 **2. Transient Analysis:**
 1. For V<sub>IN</sub> amplitude = 50mV, V<sub>IN(pp)</sub>=100mV
 ![Screenshot 2025-03-10 012619](https://github.com/user-attachments/assets/2002204f-6fc4-4e6e-a042-4576917ec1ed)
-V<sub>O</sub>=1.4681V-1.0239V=0.442V
-A<sub>V</sub>=0.442/0.1=4.42
+V<sub>O</sub> = 1.4681 V - 1.0239 V = 0.442 V
+A<sub>V</sub> = 0.442 V/0.1 V = 4.42
 
-2. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
+2. For V<sub>IN</sub> amplitude = 100 mV, V<sub>IN(pp)</sub> = 200 mV
   
    ![Screenshot 2025-03-11 032910](https://github.com/user-attachments/assets/fdc977c7-1aa0-460c-b29b-5006c9af7fed)
-V<sub>O</sub>=1.8899V-0.8108V=1.0791V
-A<sub>V</sub>=1.0791V/0.2=5.3955
+V<sub>O</sub> = 1.8899 V - 0.8108 V = 1.0791 V
+A<sub>V</sub> = 1.0791 V/0.2 V = 5.3955
 
 
 ![Screenshot 2025-03-11 033127](https://github.com/user-attachments/assets/66c94e9f-acdd-458a-a4d0-14df8d2eff62)
 
-Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
+Differential Gain = (0.8592 V-(-0.8585 V))/.2V = 8.5885
 
 **3. AC Analysis:**
 
@@ -151,14 +151,12 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
 -3dB bandwidth=1.4890MHz
 
-# **INFERENCE :**
-1.To increase the Id value we increase the width of the MOSFET ,hence W α Id.
-
-2.To increase the Vout value we decrease the Rd value , Rd α 1/(Vout).
-
-3.We got  greater output swing for Vinp-p = 200mV than for Vinp-p = 100mV.
-
-4.At the output we get an amplified signal with 180ͦ  phase shift.
+## **INFERENCE :**
+1.To increase the I<sub>D</sub> value we increase the width(W) of the MOSFET ,hence W α I<sub>D</sub>.
+2.To increase the Vout value we decrease the R<sub>D</sub> value , R<sub>D</sub> α 1/(V<sub>O</sub>).
+3.We got  greater output swing for V<sub>IN(pp)</sub>= 200 mV than for V<sub>IN(pp)</sub>=100 mV.
+4. At the output we get an amplified signal with 180ͦ  phase shift.
+5. The circuit provides a basic differential gain, but biasing is unstable due to variations in supply voltage and temperature.
 
 # **CIRCUIT 2: Differential Amplifier with Current Source**
 ## **COMPONENTS REQUIRED:**
