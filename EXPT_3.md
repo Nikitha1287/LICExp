@@ -169,7 +169,7 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
 ## PROCEDURE:
 1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
-2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.89921kohm, and R<sub>SS</sub> value to 400ohm.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.89921kohm, and current source I<sub>SS</sub> value to  1mA.
 3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
 4. Name the nmos as CMOSN according to the library file.
 5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
@@ -245,7 +245,7 @@ V<sub>bias</sub>=0.4V+0.3662V=0.7662V
 
 ## PROCEDURE:
 1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
-2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.9kohm.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.9kohm. Set bias voltage V<sub>bias</sub>=0.993506 after trial and error. All the three nmos are identical to each other.
 3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
 4. Name the nmos as CMOSN according to the library file.
 5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
@@ -294,7 +294,7 @@ Differential Gain=(0.8549-(-0.8587))/0.2=8.568dB
 
 ## PROCEDURE:
 1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
-2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.9kohm.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.9kohm. Set bias voltage V<sub>bias</sub>=0.993506 after trial and error. All the three nmos are identical to each other. Set bias voltage of mosfet replacing the resistors to 2.0793V also by trial and error method.
 3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
 4. Name the nmos as CMOSN according to the library file.
 5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
