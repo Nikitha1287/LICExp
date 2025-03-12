@@ -166,8 +166,22 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
 ![Screenshot 2025-03-11 035228](https://github.com/user-attachments/assets/359d5114-a25b-499e-8ed6-d40bef0afcc6)
 
+
+## **CALCULATIONS:**
+
+
 ## **RESULT:**
 **1. DC Analysis:**
+
+
+DC operating point:
+V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
+V<sub>DD</sub>=2.2V
+V<sub>IN(CM)</sub>=1.2V
+V<sub>P</sub>=0.40165
+I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
+
+
 TRIAL 1:
 
 ![Screenshot 2025-03-11 035244](https://github.com/user-attachments/assets/6e19fb31-1803-4510-b3b3-eb7677482a56)
@@ -213,6 +227,13 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 4. ac ground,
 5. Connecting wires.
 
+
+## **CALCULATIONS:**
+1. V<sub>bias</sub>(theoretical)=V<sub>P</sub>+V<sub>TH</sub>
+V<sub>bias</sub>=0.4V+0.3662V=0.7662V
+   V<sub>bias</sub>(practical)=0.993506V
+
+   
 ## **CIRCUIT DIAGRAM:**
 
 ![Screenshot 2025-03-11 041819](https://github.com/user-attachments/assets/ea9e5501-ef36-4f78-bbb9-23ec302336e2)
@@ -245,10 +266,11 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 # **CIRCUIT 4: Differential Amplifier**
 ## **COMPONENTS REQUIRED:**
 1. NMOS - 5(identical, W/L= 1.0005mm/24.9mm)
-3. Supply volatge:2.2V(1), 1.2V(2), 0.993506V(1),
+3. Supply volatge:2.2V(1), 1.2V(2), 0.993506V(1),2.07393V(2)
 4. ac ground,
 5. Connecting wires.
 
+## **CIRCUIT DIAGRAM:**
 
 ![image](https://github.com/user-attachments/assets/10a8f42d-0611-4dc0-9be2-87142a8817d5)
 
