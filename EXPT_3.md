@@ -267,7 +267,7 @@ I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.4999mA
 
 V<sub>O</sub>=1.6767V-0.818V=0.8587V
 A<sub>V</sub>=4.2935
-Differential Gain=(0.8549-(-0.8587))/0.2=8.568dB
+Differential Gain=(0.8549-(-0.8587))/0.2=8.568
 
 
 ![image](https://github.com/user-attachments/assets/5d4731ce-aedf-401e-a788-45a6da4bcccf)
@@ -317,7 +317,7 @@ I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.4999mA
  1. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
 V<sub>O</sub>=1.345V-1.170V=0.175V
 A<sub>V</sub>=0.875
-Differential Gain=(0.1743-(-1740))/0.2=1.735dB
+Differential Gain=(0.1743-(-1740))/0.2=1.735
 
 ![image](https://github.com/user-attachments/assets/38fa750a-3162-4ce8-be85-3dd0cd113b9c)
 
@@ -329,12 +329,15 @@ Differential Gain=(0.1743-(-1740))/0.2=1.735dB
 
 # **COMPARISON TABLE:**
 
-|  CIRCUIT   |   
-|------------|----------------|
-| CIRCUIT 1  |
-|------------|                |
-| CIRCUIT 2  |                |
-|------------|                |
-| CIRCUIT 3  |                |
-|------------|
-| CIRCUIT 4  |
+|  CIRCUIT   |  DIFFERENTIAL GAIN(dB) | VOLTAGE GAIN | OUTPUT SWING |   BANDWIDTH   |
+|------------|------------------------|--------------|--------------|---------------|
+| CIRCUIT 1  |         18.677         |    5.955     |    1.0791    |  1.4890 MHz   |               
+| CIRCUIT 2  |         18.6586        |    4.2875    |    0.8575    |  695.192 KHz  |                  
+| CIRCUIT 3  |         18.657         |    4.2935    |    0.8587    |  810.12 KHz   |
+| CIRCUIT 4  |         4.785          |    0.875     |    0.175     |  5.633 KHz    |
+
+# **INFERENCE :**
+1.To increase the Id value we increase the width of the MOSFET ,hence W α Id.
+2.To increase the Vout value we decrease the Rd value , Rd α 1/(Vout).
+3.We got  greater output swing for Vinp-p = 200mV than for Vinp-p = 100mV.
+4.At the output we get an amplified signal with 180ͦ  phase shift.
