@@ -167,18 +167,25 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
 ![Screenshot 2025-03-11 035228](https://github.com/user-attachments/assets/359d5114-a25b-499e-8ed6-d40bef0afcc6)
 
+## PROCEDURE:
+1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.89921kohm, and R<sub>SS</sub> value to 400ohm.
+3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
+4. Name the nmos as CMOSN according to the library file.
+5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
+6. DC analysis: Go to Run option, and select DC op and click on run. Observe the V<sub>OUT</sub>, I<sub>SS</sub>, V<sub>P</sub>. Vary the aspect ration and R<sub>D</sub> value in order to meet the design requirements.
+7. Transient analysis: Go to edit simulation option. Change from dc op to transient analysis. Set the dc offset as 1.2V, Amplitude 50mV, frequency 1KHz. Keep stop time for 5ms and run to get the expected waveform. Take the difference of V<sub>out1</sub> and V<sub>out2</sub> waveforms,and calculate the diffrential gain. Also note down for what value of input amplitude the distortion starts to occur by varying the input amplitude. Then set the amplitude value to 100mV and repeat the same. Since we get the better gain for this input amplitude, we continue with this amplitude.
+8. AC analysis : Go to edit simulation option. Change from transient analysis to ac analysis. Set type of sweep as decade, number of points per decade as 20, start and stop frequency as 0.1Hz and 1THz respectively to get the expected ac waveform(Frequency response graph). Note down the -3dB gain of the circuit and the bandwidth.
+
 
 ## **RESULT:**
 **1. DC Analysis:**
-
-
 DC operating point:
 V<sub>O<sub>1</sub></sub>=V<sub>O<sub>2</sub></sub>=1.25V
 V<sub>DD</sub>=2.2V
 V<sub>IN(CM)</sub>=1.2V
 V<sub>P</sub>=0.40165
 I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.500mA
-
 
 TRIAL 1:
 
@@ -207,7 +214,7 @@ A<sub>V</sub>=4.2875
 
 Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 
-**2. AC Analysis:**
+**3. AC Analysis:**
 
 ![Screenshot 2025-03-11 040105](https://github.com/user-attachments/assets/f8b3f967-5335-445a-81ae-208ce462e6dd)
 
@@ -236,6 +243,16 @@ V<sub>bias</sub>=0.4V+0.3662V=0.7662V
 
 ![Screenshot 2025-03-11 041819](https://github.com/user-attachments/assets/ea9e5501-ef36-4f78-bbb9-23ec302336e2)
 
+## PROCEDURE:
+1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.9kohm.
+3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
+4. Name the nmos as CMOSN according to the library file.
+5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
+6. DC analysis: Go to Run option, and select DC op and click on run. Observe the V<sub>OUT</sub>, I<sub>SS</sub>, V<sub>P</sub>. Vary the aspect ration and R<sub>D</sub> value in order to meet the design requirements.
+7. Transient analysis: Go to edit simulation option. Change from dc op to transient analysis. Set the dc offset as 1.2V, Amplitude 50mV, frequency 1KHz. Keep stop time for 5ms and run to get the expected waveform. Take the difference of V<sub>out1</sub> and V<sub>out2</sub> waveforms,and calculate the diffrential gain. Also note down for what value of input amplitude the distortion starts to occur by varying the input amplitude. Then set the amplitude value to 100mV and repeat the same. Since we get the better gain for this input amplitude, we continue with this amplitude.
+8. AC analysis : Go to edit simulation option. Change from transient analysis to ac analysis. Set type of sweep as decade, number of points per decade as 20, start and stop frequency as 0.1Hz and 1THz respectively to get the expected ac waveform(Frequency response graph). Note down the -3dB gain of the circuit and the bandwidth.
+
 **1. DC Analysis:**
 
 DC operating point:
@@ -250,27 +267,14 @@ I<sub>D<sub>1</sub></sub>=I<sub>D<sub>2</sub></sub>=0.4999mA
 **2. Transient Analysis:**
  1. For V<sub>IN</sub> amplitude = 100mV, V<sub>IN(pp)</sub>=200mV
 
-![image](https://github.com/user-attachments/assets/cd2d510d-15a5-4d61-87da-e0d43d95a50e)
-
 V<sub>O</sub>=1.6767V-0.818V=0.8587V
 A<sub>V</sub>=4.2935
 Differential Gain=(0.8549-(-0.8587))/0.2=8.568dB
-
-![image](https://github.com/user-attachments/assets/8c89efa3-ee8a-4d4a-8f38-9ee7dfeb7468)
-
-
-![image](https://github.com/user-attachments/assets/32bd8245-7a28-4757-9050-fa196871c516)
-
-
-![image](https://github.com/user-attachments/assets/b9778456-53ec-4696-be25-4c4389e88a0f)
 
 
 ![image](https://github.com/user-attachments/assets/5d4731ce-aedf-401e-a788-45a6da4bcccf)
 
 **3. AC Analysis:**
-
-![image](https://github.com/user-attachments/assets/0b308a69-8e7d-4b00-93ab-591c0dd4fde3)
-
 
 ![image](https://github.com/user-attachments/assets/37cb23c3-e669-4fca-8e2c-aa59faa6ffa2)
 
@@ -288,6 +292,15 @@ Differential Gain=(0.8549-(-0.8587))/0.2=8.568dB
 
 ![image](https://github.com/user-attachments/assets/10a8f42d-0611-4dc0-9be2-87142a8817d5)
 
+## PROCEDURE:
+1. Usind LTSPICE, construct a circuit as per the given circuit diagram.
+2. Give input supply voltage 1.2 for each nmos,and set V<sub>DD</sub> to 2.2V supply. Set the R<sub>D</sub> values to 1.9kohm.
+3. Download the library tsmc018.lib file. Create a folder. Save the library file and LTspice file to the same folder. Import the library file to LTspice using spice directive(.op).
+4. Name the nmos as CMOSN according to the library file.
+5. Find the I<sub>SS</sub>, and hence I<sub>D</sub> value for each MOSFET.
+6. DC analysis: Go to Run option, and select DC op and click on run. Observe the V<sub>OUT</sub>, I<sub>SS</sub>, V<sub>P</sub>. Vary the aspect ration and R<sub>D</sub> value in order to meet the design requirements.
+7. Transient analysis: Go to edit simulation option. Change from dc op to transient analysis. Set the dc offset as 1.2V, Amplitude 50mV, frequency 1KHz. Keep stop time for 5ms and run to get the expected waveform. Take the difference of V<sub>out1</sub> and V<sub>out2</sub> waveforms,and calculate the diffrential gain. Also note down for what value of input amplitude the distortion starts to occur by varying the input amplitude. Then set the amplitude value to 100mV and repeat the same. Since we get the better gain for this input amplitude, we continue with this amplitude.
+8. AC analysis : Go to edit simulation option. Change from transient analysis to ac analysis. Set type of sweep as decade, number of points per decade as 20, start and stop frequency as 0.1Hz and 1THz respectively to get the expected ac waveform(Frequency response graph). Note down the -3dB gain of the circuit and the bandwidth.
 
 **1. DC Analysis:**
 
@@ -306,14 +319,10 @@ V<sub>O</sub>=1.345V-1.170V=0.175V
 A<sub>V</sub>=0.875
 Differential Gain=(0.1743-(-1740))/0.2=1.735dB
 
-
 ![image](https://github.com/user-attachments/assets/38fa750a-3162-4ce8-be85-3dd0cd113b9c)
 
 **3. AC Analysis:**
 
-![image](https://github.com/user-attachments/assets/fcf49d12-d6c5-4975-adc5-2fa868a9aae8)
-
-
 ![image](https://github.com/user-attachments/assets/e5df9868-7ad4-408b-847a-86f86eac278f)
 
-
+-3dB bandwidth=5.633kHz
