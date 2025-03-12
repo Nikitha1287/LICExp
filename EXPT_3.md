@@ -49,7 +49,7 @@ The differential amplifier doesn't require coupling capacitors. As the noise is 
 # **CIRCUIT 1: Differential Amplifier with Load Resistor**
 ## **COMPONENTS REQUIRED:**
 1. Resistors: 1.89921kohm(2),0.4kohm(1),
-2. NMOS - 2,
+2. NMOS - 2(identical,W/L= 1.0005mm/24.9mm),
 3. Supply volatge:2.2V(1), 1.2V(2)
 4. ac ground,
 5. Connecting wires.
@@ -156,7 +156,7 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 # **CIRCUIT 2: Differential Amplifier with Current Source**
 ## **COMPONENTS REQUIRED:**
 1. Resistors: 1.9kohm(2),
-2. NMOS - 2,
+2. NMOS - 2(identical,W/L= 1.0005mm/24.9mm),
 3. Supply volatge:2.2V(1), 1.2V(2)
 4. ac ground,
 5. Connecting wires,
@@ -205,10 +205,10 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 -3dB bandwidth = 695.192kHz
 
 
-# **CIRCUIT 2: Differential Amplifier with Active Load**
+# **CIRCUIT 3: Differential Amplifier with Active Load**
 ## **COMPONENTS REQUIRED:**
 1. Resistors: 1.9kohm(2),
-2. NMOS - 3(identical),
+2. NMOS - 3(identical,W/L= 1.0005mm/24.9mm),
 3. Supply volatge:2.2V(1), 1.2V(2), 0.993506V(1),
 4. ac ground,
 5. Connecting wires.
@@ -240,6 +240,14 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 ![image](https://github.com/user-attachments/assets/37cb23c3-e669-4fca-8e2c-aa59faa6ffa2)
 
 
+
+
+# **CIRCUIT 4: Differential Amplifier**
+## **COMPONENTS REQUIRED:**
+1. NMOS - 5(identical, W/L= 1.0005mm/24.9mm)
+3. Supply volatge:2.2V(1), 1.2V(2), 0.993506V(1),
+4. ac ground,
+5. Connecting wires.
 
 
 ![image](https://github.com/user-attachments/assets/10a8f42d-0611-4dc0-9be2-87142a8817d5)
