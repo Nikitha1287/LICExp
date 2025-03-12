@@ -151,6 +151,14 @@ Differential Gain = (0.8592V-(-0.8585V))/.2V=8.5885
 
 -3dB bandwidth=1.4890MHz
 
+# **INFERENCE :**
+1.To increase the Id value we increase the width of the MOSFET ,hence W α Id.
+
+2.To increase the Vout value we decrease the Rd value , Rd α 1/(Vout).
+
+3.We got  greater output swing for Vinp-p = 200mV than for Vinp-p = 100mV.
+
+4.At the output we get an amplified signal with 180ͦ  phase shift.
 
 # **CIRCUIT 2: Differential Amplifier with Current Source**
 ## **COMPONENTS REQUIRED:**
@@ -336,8 +344,4 @@ Differential Gain=(0.1743-(-1740))/0.2=1.735
 | CIRCUIT 3  |         18.657         |    4.2935    |    0.8587    |  810.12 KHz   |
 | CIRCUIT 4  |         4.785          |    0.875     |    0.175     |  5.633 KHz    |
 
-# **INFERENCE :**
-1.To increase the Id value we increase the width of the MOSFET ,hence W α Id.
-2.To increase the Vout value we decrease the Rd value , Rd α 1/(Vout).
-3.We got  greater output swing for Vinp-p = 200mV than for Vinp-p = 100mV.
-4.At the output we get an amplified signal with 180ͦ  phase shift.
+
