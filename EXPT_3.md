@@ -128,6 +128,22 @@ V<sub>IN(CM)</sub> = 1.2V
 V<sub>P</sub> = 0.40165
 I<sub>D<sub>1</sub></sub>=V<sub>D<sub>2</sub></sub>=0.500mA
 
+**Variation of I<sub>D</sub>, V<sub>,OUT</sub>, with change in the Aspect ratio:
+|     W/L     |  V<sub>OUT</sub>(V)  |  I<sub>D</sub>(A) |  V<sub>P</sub>(V)  |
+|-------------|----------------------|-------------------|--------------------|
+|  180n/180n  |       2.03685        |      85.904u      |     0.0687232      |
+|  500n/500n  |       2.08677        |      59.6206u     |     0.0476965      |
+|  500n/180n  |       1.92899        |      0.14269m     |     0.1141580      |
+| 1000n/500n  |       2.00430        |      0.10304m     |     0.0824337      |
+|    1m/1m    |       2.07537        |      65.6224u     |     0.0524979      |
+|    10m/1m   |       1.55613        |      0.33902m     |     0.271215       |
+|    20m/1m   |       1.3234         |      0.46156m     |     0.369249       |
+|    25m/1m   |       1.2485         |      0.50099m     |     0.400797       |
+|   24.9m/1m  |       1.24984        |      0.50029m     |     0.400235       |
+|24.9m/1.0005m|        1.25          |      0.50021m     |     0.400165       |
+
+
+
 **2. Transient Analysis:**
 1. For V<sub>IN</sub> amplitude = 50mV, V<sub>IN(pp)</sub>=100mV
 ![Screenshot 2025-03-10 012619](https://github.com/user-attachments/assets/2002204f-6fc4-4e6e-a042-4576917ec1ed)
