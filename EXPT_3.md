@@ -157,6 +157,8 @@ Differential Gain = (0.8592 V-(-0.8585 V))/.2V = 8.5885
 3.We got  greater output swing for V<sub>IN(pp)</sub>= 200 mV than for V<sub>IN(pp)</sub>=100 mV.
 4. At the output we get an amplified signal with 180ͦ  phase shift.
 5. The circuit provides a basic differential gain, but biasing is unstable due to variations in supply voltage and temperature.
+6. Common-mode rejection ratio (CMRR) is low, making it sensitive to noise and supply variations.
+7. Power dissipation is higher, and the circuit is not suitable for precise analog applications.
 
 # **CIRCUIT 2: Differential Amplifier with Current Source**
 ## **COMPONENTS REQUIRED:**
@@ -227,6 +229,13 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 
 -3dB bandwidth = 695.192kHz
 
+## **INFERENCE :**
+1. An ideal current source replaces Rss, ensuring a constant tail current regardless of external conditions.
+2. The circuit achieves a more stable operating point and a higher CMRR than the resistor-based design.
+3. Ideal current sources are theoretical, and practical implementation requires transistors or other active elements.
+4. When the resistor is replaced with a current source, the V<sub>O</sub> increases slightly, to correct this we increase the value of R<sub>D</sub>. 
+
+
 
 # **CIRCUIT 3: Differential Amplifier with Active Load**
 ## **COMPONENTS REQUIRED:**
@@ -239,8 +248,8 @@ Differential Gain = (0.8571V-(-0.8567V))/.2V=8.569
 
 ## **CALCULATIONS:**
 1. V<sub>bias</sub>(theoretical)=V<sub>P</sub>+V<sub>TH</sub>
-V<sub>bias</sub>=0.4V+0.3662V=0.7662V
-   V<sub>bias</sub>(practical)=0.993506V
+V<sub>bias</sub>=0.4V+0.3662V=0.7662 V
+   V<sub>bias</sub>(practical)=0.993506 V
 
    
 ## **CIRCUIT DIAGRAM:**
@@ -284,8 +293,14 @@ Differential Gain=(0.8549-(-0.8587))/0.2=8.568
 
 -3dB bandwidth=810.12KHz
 
+## **INFERENCE:**
+1. This design provides stable biasing and maintains a nearly constant tail current, reducing supply dependence.
+2. This is a practical and efficient approach, providing stable biasing, good gain, and improved noise rejection, making it suitable for real-world applications.
+3. The calculated V<sub>bias</sub> is 0.7662 V, but the practical V<sub>bias</sub> is 0.993506 V
+4. The CMRR is better, and the amplifier becomes more robust against power supply variations.
 
-# **CIRCUIT 4: Differential Amplifier**
+
+# **CIRCUIT 4: Differential Amplifier With Current Mirror**
 ## **COMPONENTS REQUIRED:**
 1. NMOS - 5(identical, W/L= 1.0005mm/24.9mm)
 3. Supply volatge:2.2V(1), 1.2V(2), 0.993506V(1),2.07393V(2)
@@ -332,6 +347,12 @@ Differential Gain=(0.1743-(-1740))/0.2=1.735
 ![image](https://github.com/user-attachments/assets/e5df9868-7ad4-408b-847a-86f86eac278f)
 
 -3dB bandwidth=5.633kHz
+
+## **INFERENCE:**
+1. A current mirror provides the most stable current source, ensuring a constant tail current and high CMRR.
+2. V<sub>O</sub> is highly stable and symmetrical, leading to better signal processing.
+3. Output voltage variations decrease as current source stability improves.
+
 
 # **COMPARISON TABLE:**
 
