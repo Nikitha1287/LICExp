@@ -22,7 +22,16 @@ There are Two types of current mirror circuit:
 
 **In this experiment, our main focus is on MOS Current Mirror Circuits and including it as a load in the differential amplifier circuit.**
 
-## **1. BIPOLAR CURRENT MIRROR CIRCUIT:**
+
 
 
 ![image](https://github.com/user-attachments/assets/62f0bef3-c206-49a7-8fda-3e75dd0739f3)
+
+
+## **MOS CURRENT MIRROR CIRCUIT:**
+![image](https://github.com/user-attachments/assets/5330cd5a-5a12-4ed8-a098-dd23db6fa05e)
+
+ (a)ConceptualillustrationofcopyingacurrentbyanNMOSdevice,(b)generationof
+ avoltageproportionaltosquarerootofcurrent,(c)MOScurrentmirror.
+
+
