@@ -27,11 +27,11 @@ There are Two types of current mirror circuit:
 
 ![image](https://github.com/user-attachments/assets/62f0bef3-c206-49a7-8fda-3e75dd0739f3)
 
-
+ 
 ## **MOS CURRENT MIRROR CIRCUIT:**
 ![image](https://github.com/user-attachments/assets/5330cd5a-5a12-4ed8-a098-dd23db6fa05e)
 
- (a)ConceptualillustrationofcopyingacurrentbyanNMOSdevice,(b)generationof
- avoltageproportionaltosquarerootofcurrent,(c)MOScurrentmirror.
+ (a) Conceptual illustration of copying a current by an NMOS device, (b) generation of 
+ a voltage proportional to square root of current, (c) MOS current mirror.
 
 
