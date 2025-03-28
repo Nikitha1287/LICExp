@@ -35,3 +35,17 @@ There are Two types of current mirror circuit:
  a voltage proportional to square root of current, (c) MOS current mirror.
 
 
+### **ADVANTAGES OF MOS CURRENT MIRROR CIRCUIT:**
+1. Accurate replication of currents.
+2. Flexibility to integrate with other configurations like cascade or differential amplifiers.
+3. Compatibility with analog integrated circuits.
+
+### **APPLICATIONS OF MOS CURRENT MIRROR CIRCUIT:**
+1. biasing amplifiers,
+2. creating current sources, and
+3. implementing active loads.
+
+### **LIMITATIONS OF CURRENT MIRROR CIRCUIT:**
+1. **Voltage Drop:** A minimum voltage drop is required across the transistors to operate effectively.
+2. **Mismatch Sensitivity:** Variations in transistor characteristics can impact accuracy.
+3. **Thermal Dependency:** Performance can degrade with temperature changes.
