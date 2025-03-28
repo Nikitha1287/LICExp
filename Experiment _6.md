@@ -19,8 +19,13 @@ There are Two types of current mirror circuit:
 1. Bipolar Current Mirror (which are of two types: NPN and PNP)
 2. MOS Current Mirror (two types: NMOS and PMOS)
 
-**In this experiment, our main focus is on MOS Current Mirror Circuits and including it as a load in the differential amplifier circuit.**
 
 ![image](https://github.com/user-attachments/assets/3f647c1d-03b4-40cc-8173-3984c557b99e)
+
+
+**In this experiment, our main focus is on MOS Current Mirror Circuits and including it as a load in the differential amplifier circuit.**
+
+## **1. BIPOLAR CURRENT MIRROR CIRCUIT:**
+
 
 ![image](https://github.com/user-attachments/assets/62f0bef3-c206-49a7-8fda-3e75dd0739f3)
