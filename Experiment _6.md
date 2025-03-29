@@ -1,11 +1,11 @@
 # **EXPERIMENT 6: DESIGN AND ANALYSIS OF CURRENT MIRROR CIRCUIT:**
 
-## **AIM:**
+### **AIM:**
  Design and Analyze Current mirror circuit as active load in amplifier circuit. V<sub>DD</sub>(Power Supply)= 1.8V, P<= 1mW and Gain: A<sub>v</sub> > -10V/V. Perform DC Analysis, Transient analysis and AC analysis. 
 
  
 # **CURRENT MIRROR CIRCUIT:**
-## **INTRODUCTION:**
+### **INTRODUCTION:**
 Current Mirror circuit is designed to copy a current to an active device by controlling the current through another active device with the same current characteristics. The current mirror is used to provide bias currents and active loads to circuits. Theoretically a perfect current mirror is an inverting current amplifier. This circuit generates a single copy or number of copies of the reference current. They are used in Integrated circuits to bias the amplifiers. 
 **In order to avoid supply and temperature dependence, a bandgap reference can provide a “golden current” while requiring a few tens of devices. We must therefore seek a 
 method of “copying” the golden current without duplicating the entire bandgap circuitry. Current mirrors serve this purpose.**
@@ -28,36 +28,36 @@ There are Two types of current mirror circuit:
 ![image](https://github.com/user-attachments/assets/62f0bef3-c206-49a7-8fda-3e75dd0739f3)
 
  
-## **MOS CURRENT MIRROR CIRCUIT:**
+### **MOS CURRENT MIRROR CIRCUIT:**
 ![image](https://github.com/user-attachments/assets/5330cd5a-5a12-4ed8-a098-dd23db6fa05e) 
 
  (a) Conceptual illustration of copying a current by an NMOS device, (b) generation of 
  a voltage proportional to square root of current, (c) MOS current mirror.
 
 
-### **ADVANTAGES OF MOS CURRENT MIRROR CIRCUIT:**
+#### **ADVANTAGES OF MOS CURRENT MIRROR CIRCUIT:**
 1. Accurate replication of currents.
 2. Flexibility to integrate with other configurations like cascade or differential amplifiers.
 3. Compatibility with analog integrated circuits.
 
-### **APPLICATIONS OF MOS CURRENT MIRROR CIRCUIT:**
+#### **APPLICATIONS OF MOS CURRENT MIRROR CIRCUIT:**
 1. biasing amplifiers,
 2. creating current sources, and
 3. implementing active loads.
 
-### **LIMITATIONS OF CURRENT MIRROR CIRCUIT:**
+#### **LIMITATIONS OF CURRENT MIRROR CIRCUIT:**
 1. **Voltage Drop:** A minimum voltage drop is required across the transistors to operate effectively.
 2. **Mismatch Sensitivity:** Variations in transistor characteristics can impact accuracy.
 3. **Thermal Dependency:** Performance can degrade with temperature changes.
 
 # **PART A - CURRENT MIRROR CIRCUIT:**
-## **COMPONENTS REQUIRED:**
+### **COMPONENTS REQUIRED:**
 1. MOSFET(NMOS-1, PMOS-2)
 2. Power supply-2(1.8V,0.8V)
 3. Current source - 0.27775mA
 
 
-## **CIRCUIT DIAGRAM:**
+### **CIRCUIT DIAGRAM:**
 
 Circuit diagram is as follows:
 
@@ -69,7 +69,7 @@ Assume V<sub>in</sub>
 <img src="https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296" width="904.8" height="600">
 
 
-## **CIRCUIT ANALYSIS:**
+### **CIRCUIT ANALYSIS:**
 1. DC ANALYSIS:
 
 ![image](https://github.com/user-attachments/assets/233ee38d-5dbd-42c1-ac6f-cbd043eb04c8)
@@ -86,7 +86,7 @@ Assume V<sub>in</sub>
 
 
 
-## **OBSERVATION TABLE:**
+### **OBSERVATION TABLE:**
 1. For **L=180nm,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
 
 |     W      |     V<sub>out</sub>(V)     |     I<sub>ref</sub>(A)     |     I<sub>copy</sub>(practical)(A)     |  
@@ -140,11 +140,19 @@ Assume V<sub>in</sub>
 
 
  
-## **INFERENCE:**
+### **INFERENCE:**
 1. We notice that in order to set the current value, we change the W value. We notice that theI<sub>copy</sub> value is directly proportional to the W value.
 2. 
 
 
+
+
+
+## **1:1 RATIO**
+### **CIRCUIT 1: L=180nm**
+### **CIRCUIT DIAGRAM:**
+
+![image](https://github.com/user-attachments/assets/16424d0b-4d5d-4784-8c2b-a29376c23549)
 
 
 
