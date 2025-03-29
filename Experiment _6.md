@@ -66,6 +66,10 @@ Assume V<sub>in</sub>
 <img src="https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296" width="904.8" height="600">
 
 
+## **PROCEDURE:**
+
+
+
 
 
 
@@ -96,24 +100,32 @@ Assume V<sub>in</sub>
 2. For **L=500nm,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
 |     W      |     V<sub>out</sub>(V)     |     I<sub>ref</sub>(A)     |     I<sub>copy</sub>(practical)(A)     |
 |------------|----------------------------|----------------------------|--------------------------------------- |
-|   500n     | 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+|   500n     |          1.68709           |         0.00027775         |              1.84581e-05               |
+|   750n     |          1.67129           |         0.00027775         |              2.63514e-05               |
+|    1u      |          1.65765           |         0.00027775         |              3.42581e-05               |
+|    2u      |          1.61274           |         0.00027775         |              6.58938e-05               |
+|    5u      |          1.48979           |         0.00027775         |              0.000160386               |
+|   10u      |          0.292066          |         0.00027775         |              0.00028236                |
+|    7u      |          1.37569           |         0.00027775         |              0.000222574               |
+|    9u      |          0.000222574       |         0.00027775         |              0.000275766               |
+|   9.5u     |          0.414358          |         0.00027775         |              0.000280596               |
+|   9.3u     |          0.511975          |         0.00027775         |              0.000279198               |
+|  9.1543u   |          0.606889          |         0.00027775         |              0.00027775                |
+
+3. For **L=1um,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
+
+|     W      |     V<sub>out</sub>(V)     |     I<sub>ref</sub>(A)     |     I<sub>copy</sub>(practical)(A)     |
+|------------|----------------------------|----------------------------|--------------------------------------- |
+|     1u     |          1.67428           |         0.00027775         |              1.86674e-05               |
+|     2u     |          1.63787           |         0.00027775         |              3.6609e-05                |
+|    10u     |          1.43563           |         0.00027775         |              0.000179579               |
+|    15u     |          1.14076           |         0.00027775         |              0.000266531               |
+|    20u     |          0.192214          |         0.00027775         |              0.000281518               |
+|    17u     |          0.306692          |         0.00027775         |              0.000279946               |
+|  16.0852u  |          0.542857          |         0.00027775         |               0.00027775               |
 
 
-
-
+ 
 ## **INFERENCE:**
 1. We notice that in order to set the current value, we change the W value. We notice that theI<sub>copy</sub> value is directly proportional to the W value.
 2. 
