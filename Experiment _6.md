@@ -55,17 +55,23 @@ There are Two types of current mirror circuit:
 
 ## **CIRCUIT DIAGRAM:**
 
+Circuit diagram is as follows:
+
 ![image](https://github.com/user-attachments/assets/70a49487-27f9-4dd5-80e5-5a50f98270fe)
 
-
+In LTSPICE, the below circuit is drawn:
+Assume V<sub>in</sub>
 ![image](https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296)
 
 
-![image](https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296=250*250)
+<img src="![image](https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296)" width="100" height="100">
+
+
+
 
 
 ## **OBSERVATION TABLE:**
-1. For **L=180nm,V<sub>bias</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
+1. For **L=180nm,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
 
 |     W     |     V<sub>out</sub>     |     I<sub>ref</sub>     |     I<sub>copy</sub>(expected)     |     I<sub>copy</sub>(practical)     |  
 |-----------|-------------------------|-------------------------|------------------------------------|-------------------------------------|
