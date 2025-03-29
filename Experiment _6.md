@@ -17,7 +17,7 @@ method of “copying” the golden current without duplicating the entire bandga
 
 There are Two types of current mirror circuit:
 
-![image](https://github.com/user-attachments/assets/3f647c1d-03b4-40cc-8173-3984c557b99e)
+<img src="https://github.com/user-attachments/assets/3f647c1d-03b4-40cc-8173-3984c557b99e" width ="270.71" height="100">
 
 
 **In this experiment, our main focus is on MOS Current Mirror Circuits and including it as a load in the differential amplifier circuit.**
@@ -29,7 +29,7 @@ There are Two types of current mirror circuit:
 
  
 ## **MOS CURRENT MIRROR CIRCUIT:**
-![image](https://github.com/user-attachments/assets/5330cd5a-5a12-4ed8-a098-dd23db6fa05e)
+![image](https://github.com/user-attachments/assets/5330cd5a-5a12-4ed8-a098-dd23db6fa05e) 
 
  (a) Conceptual illustration of copying a current by an NMOS device, (b) generation of 
  a voltage proportional to square root of current, (c) MOS current mirror.
@@ -61,10 +61,8 @@ Circuit diagram is as follows:
 
 In LTSPICE, the below circuit is drawn:
 Assume V<sub>in</sub>
-![image](https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296)
 
-
-<img src="![image](https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296)" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296" width="904.8" height="600">
 
 
 
