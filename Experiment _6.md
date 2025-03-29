@@ -49,3 +49,49 @@ There are Two types of current mirror circuit:
 1. **Voltage Drop:** A minimum voltage drop is required across the transistors to operate effectively.
 2. **Mismatch Sensitivity:** Variations in transistor characteristics can impact accuracy.
 3. **Thermal Dependency:** Performance can degrade with temperature changes.
+
+# **PART A - CURRENT MIRROR CIRCUIT:**
+
+## **OBSERVATION TABLE:**
+1. For **L=180nm,V<sub>bias</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
+
+|     W     |     V<sub>out</sub>     |     I<sub>ref</sub>     |     I<sub>copy</sub>(expected)     |     I<sub>copy</sub>(practical)     |  
+|-----------|-------------------------|-------------------------|------------------------------------|-------------------------------------|
+|   180n    |    
+|
+
+
+
+
+
+
+
+
+
+## **INFERENCE:**
+1. We notice that in order to set the current value, we change the W value. We notice that theI<sub>copy</sub> value is directly proportional to the W value.
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
