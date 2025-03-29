@@ -17,6 +17,7 @@ method of “copying” the golden current without duplicating the entire bandga
 
 There are Two types of current mirror circuit:
 
+
 <img src="https://github.com/user-attachments/assets/3f647c1d-03b4-40cc-8173-3984c557b99e" width ="270.71" height="100">
 
 
@@ -71,17 +72,21 @@ Assume V<sub>in</sub>
 ## **OBSERVATION TABLE:**
 1. For **L=180nm,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
 
-|     W     |     V<sub>out</sub>     |     I<sub>ref</sub>     |     I<sub>copy</sub>(expected)     |     I<sub>copy</sub>(practical)     |  
-|-----------|-------------------------|-------------------------|------------------------------------|-------------------------------------|
-|   180n    |    
+|     W     |     V<sub>out</sub>     |     I<sub>ref</sub>     |     I<sub>copy</sub>(practical)     |  
+|-----------|-------------------------|-------------------------|------------------------------------ |
+|   180n    |         1.34246         |       0.00027775        |      3.77236e-05	
+|   200n    |
+|   400n    |
+|   500n    |
+|   750n    |
+|    1u     |
+|    2u     |
+|    3u     |
 |
-
-
-
-
-
-
-
+|
+|
+|
+|
 
 
 ## **INFERENCE:**
