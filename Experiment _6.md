@@ -1,7 +1,6 @@
 # **EXPERIMENT 6: DESIGN AND ANALYSIS OF CURRENT MIRROR CIRCUIT:**
 
 ## **AIM:**
-
  Design and Analyze Current mirror circuit as active load in amplifier circuit. V<sub>DD</sub>(Power Supply)= 1.8V, P<= 1mW and Gain: A<sub>v</sub> > -10V/V. Perform DC Analysis, Transient analysis and AC analysis. 
 
  
@@ -53,6 +52,10 @@ There are Two types of current mirror circuit:
 
 # **PART A - CURRENT MIRROR CIRCUIT:**
 ## **COMPONENTS REQUIRED:**
+1. MOSFET(NMOS-1, PMOS-2)
+2. Power supply-2(1.8V,0.8V)
+3. Current source - 0.27775mA
+
 
 ## **CIRCUIT DIAGRAM:**
 
@@ -66,8 +69,18 @@ Assume V<sub>in</sub>
 <img src="https://github.com/user-attachments/assets/f30e37cd-2eb3-4421-a870-9b422dae2296" width="904.8" height="600">
 
 
-## **PROCEDURE:**
+## **CIRCUIT ANALYSIS:**
+1. DC ANALYSIS:
 
+![image](https://github.com/user-attachments/assets/233ee38d-5dbd-42c1-ac6f-cbd043eb04c8)
+
+2. TRANSIENT ANALYSIS:
+
+![image](https://github.com/user-attachments/assets/4ac05522-a744-409f-a791-3bd6c79db2f8)
+
+3. AC ANALYSIS"
+
+![image](https://github.com/user-attachments/assets/e9b7cdaa-ccf5-4df4-908f-76f738f2e7c4)
 
 
 
