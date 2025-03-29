@@ -98,6 +98,7 @@ Assume V<sub>in</sub>
 
 
 2. For **L=500nm,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
+
 |     W      |     V<sub>out</sub>(V)     |     I<sub>ref</sub>(A)     |     I<sub>copy</sub>(practical)(A)     |
 |------------|----------------------------|----------------------------|--------------------------------------- |
 |   500n     |          1.68709           |         0.00027775         |              1.84581e-05               |
