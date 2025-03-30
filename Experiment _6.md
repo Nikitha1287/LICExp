@@ -72,15 +72,15 @@ Assume V<sub>in</sub>
 ### **CIRCUIT ANALYSIS:**
 1. DC ANALYSIS:
 
-![image](https://github.com/user-attachments/assets/233ee38d-5dbd-42c1-ac6f-cbd043eb04c8)
+<img src="https://github.com/user-attachments/assets/233ee38d-5dbd-42c1-ac6f-cbd043eb04c8" width="562.12" height="400">
 
 2. TRANSIENT ANALYSIS:
 
-![image](https://github.com/user-attachments/assets/4ac05522-a744-409f-a791-3bd6c79db2f8)
+<img src="https://github.com/user-attachments/assets/4ac05522-a744-409f-a791-3bd6c79db2f8" width="562.12" height="400">
 
 3. AC ANALYSIS"
 
-![image](https://github.com/user-attachments/assets/e9b7cdaa-ccf5-4df4-908f-76f738f2e7c4)
+<img src="https://github.com/user-attachments/assets/e9b7cdaa-ccf5-4df4-908f-76f738f2e7c4" width="562.12" height="400">
 
 
 
@@ -163,5 +163,11 @@ Assume V<sub>in</sub>
 
 ![image](https://github.com/user-attachments/assets/169efdd6-7b55-46c1-ab62-88dbe119c84c)
 
+ #### **AC ANALYSIS:**
+ ![Screenshot 2025-03-30 101351](https://github.com/user-attachments/assets/874050b9-f56d-45d2-b9ab-6b85b096bfd0)
 
+![image](https://github.com/user-attachments/assets/c2236c80-77ff-486f-beb6-6c7b1669d5f5)
+
+
+![image](https://github.com/user-attachments/assets/6d126716-1d05-4757-aaba-18bb4f4242bc)
 
