@@ -150,15 +150,18 @@ Assume V<sub>in</sub>
 ### **CIRCUIT 1: L=180nm**
 ### **CIRCUIT DIAGRAM:**
 
-![image](https://github.com/user-attachments/assets/16424d0b-4d5d-4784-8c2b-a29376c23549)
+<img src="https://github.com/user-attachments/assets/16424d0b-4d5d-4784-8c2b-a29376c23549" width="607.56" height = "400">
 
- DC ANALYSIS:
+ #### **DC ANALYSIS:**
 
 **W = 3.57885u** for I<sub>copy</sub>=I<sub>ref</sub>
 
 
-![image](https://github.com/user-attachments/assets/f611aa32-3610-4552-b0c4-a724645bcf21)
+<img src="https://github.com/user-attachments/assets/f611aa32-3610-4552-b0c4-a724645bcf21" width="400" height = "400">
 
+#### **TRANSIENT ANALYSIS:**
+
+![image](https://github.com/user-attachments/assets/169efdd6-7b55-46c1-ab62-88dbe119c84c)
 
 
 
