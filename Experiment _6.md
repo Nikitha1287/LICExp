@@ -154,23 +154,13 @@ Assume V<sub>in</sub>
 
 ![image](https://github.com/user-attachments/assets/16424d0b-4d5d-4784-8c2b-a29376c23549)
 
+### **CIRCUIT DIAGRAM:**
+ DC ANALYSIS:
+
+**W = 3.57885u** for I<sub>copy</sub>=I<sub>ref</sub>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/f611aa32-3610-4552-b0c4-a724645bcf21)
 
 
 
