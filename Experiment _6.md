@@ -142,11 +142,9 @@ Assume V<sub>in</sub>
  
 ### **INFERENCE:**
 1. We notice that in order to set the current value, we change the W value. We notice that theI<sub>copy</sub> value is directly proportional to the W value.
-2. 
 
 
-
-
+### **PROCEDURE:**
 
 ## **1:1 RATIO**
 ### **CIRCUIT 1: L=180nm**
@@ -154,7 +152,6 @@ Assume V<sub>in</sub>
 
 ![image](https://github.com/user-attachments/assets/16424d0b-4d5d-4784-8c2b-a29376c23549)
 
-### **CIRCUIT DIAGRAM:**
  DC ANALYSIS:
 
 **W = 3.57885u** for I<sub>copy</sub>=I<sub>ref</sub>
