@@ -124,7 +124,7 @@ Assume V<sub>in</sub>
 |    9u      |          0.000222574       |         0.00027775         |              0.000275766               |
 |   9.5u     |          0.414358          |         0.00027775         |              0.000280596               |
 |   9.3u     |          0.511975          |         0.00027775         |              0.000279198               |
-|  9.1543u   |          0.606889          |         0.00027775         |              0.00027775                |
+|**9.1543u** |        **0.606889**        |       **0.00027775**       |            **0.00027775**              |
 
 3. For **L=1um,V<sub>in</sub>=0.8V and V<sub>DD</sub>** we notice how the I<sub>copy</sub>, V<sub>out</sub> and other parameters vary with change in W value of the Mosfets.
 
@@ -136,7 +136,7 @@ Assume V<sub>in</sub>
 |    15u     |          1.14076           |         0.00027775         |              0.000266531               |
 |    20u     |          0.192214          |         0.00027775         |              0.000281518               |
 |    17u     |          0.306692          |         0.00027775         |              0.000279946               |
-|  16.0852u  |          0.542857          |         0.00027775         |               0.00027775               |
+|**16.0852u**|        **0.542857**        |       **0.00027775**       |             **0.00027775**             |
 
 
  
@@ -171,3 +171,48 @@ Assume V<sub>in</sub>
 
 ![image](https://github.com/user-attachments/assets/6d126716-1d05-4757-aaba-18bb4f4242bc)
 
+## **1:2 RATIO**
+### **CIRCUIT 1: L=180nm**
+### **CIRCUIT DIAGRAM:**
+
+![image](https://github.com/user-attachments/assets/c2b3e3bd-9e88-4689-8275-52b4e0793d59)
+
+ #### **DC ANALYSIS:**
+ ![image](https://github.com/user-attachments/assets/a9a4f119-8ded-4883-9961-135b6ec0b280)
+
+
+#### **TRANSIENT ANALYSIS:**
+![image](https://github.com/user-attachments/assets/88bb72fb-8b09-41d9-b6cc-65775208d73d)
+
+
+ #### **AC ANALYSIS:**
+ ![Screenshot 2025-03-30 213211](https://github.com/user-attachments/assets/8181f90d-ca92-4488-aa69-8b29e39a81b7)
+
+ 
+## **1:3 RATIO**
+### **CIRCUIT 1: L=180nm**
+#### **DC ANALYSIS:**
+![Screenshot 2025-03-30 214001](https://github.com/user-attachments/assets/8ff5ec67-fe70-43ac-8cd7-c2328bbfffe2)
+
+
+#### **TRANSIENT ANALYSIS:**
+![image](https://github.com/user-attachments/assets/6d8a806a-fc18-4be9-91f0-301e0c7e2792)
+
+![image](https://github.com/user-attachments/assets/5ec2e34d-006d-49fb-ad01-8ae17d6c9a9c)
+
+
+![image](https://github.com/user-attachments/assets/72fbac04-593b-4aa1-9789-dac848447eca)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
