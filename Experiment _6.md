@@ -171,6 +171,17 @@ Assume V<sub>in</sub>
 
 ![image](https://github.com/user-attachments/assets/6d126716-1d05-4757-aaba-18bb4f4242bc)
 
+### **CIRCUIT 1: L=500nm**
+ #### **DC ANALYSIS:**
+ ![Screenshot 2025-03-30 225843](https://github.com/user-attachments/assets/ed8cf634-9603-4ce8-88d9-33b2a374f710)
+
+
+
+
+
+
+
+
 ## **1:2 RATIO**
 ### **CIRCUIT 1: L=180nm**
 ### **CIRCUIT DIAGRAM:**
