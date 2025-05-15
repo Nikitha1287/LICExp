@@ -145,6 +145,31 @@ Assume V<sub>in</sub>
 
 
 ### **PROCEDURE:**
+1. Circuit Setup: Construct the circuit as per the provided schematic using LTspice.
+2. Power Supply: Set the supply voltage Vdd = 1.8V.
+3. Library File Setup:
+   1. Download the library file named tsmc018 (1).txt.
+   2. Create a new folder and save both the library file and your LTspice project file in it.
+   3. Import the library file into LTspice using the .lib or .include SPICE directive.
+4. MOSFET Configuration:
+   1. Use model names CMOSN for NMOSFETs and CMOSP for PMOSFETs, as specified in the library file.
+   2. Set the channel length (L) = 180nm.
+   3. Set the NMOS gate voltage = 0.5V.
+   4. Vary the NMOS width (W) to achieve the desired Q-point that corresponds to the required current based on the given power rating.
+5.DC Analysis:
+   1. In the simulation settings, choose DC sweep mode.
+   2. This allows you to observe how the current varies with different values of width (W). Since the drain current (Id) is directly proportional to the width, adjust W to match the calculated current.
+   3. As this is a current mirror setup, ensure both MOSFETs carry the same current (reference current) and the output mirrors it accurately.
+6. Transient Analysis:
+   1. In the simulation settings, switch to Transient Analysis.
+   2. Set the DC offset = 0.5V, Amplitude = 1mV, and Frequency = 1kHz.
+   3. Set the Stop Time = 3ms and run the simulation.
+   4. Analyze the waveform and determine the maximum output swing.
+7. AC Analysis:
+   1. Change the simulation mode to AC Analysis.
+   2. Use a decade sweep with 20 points per decade.
+   3. Set the frequency range from 0.1 Hz to 1 THz.
+   4. From the resulting AC response, determine the 3dB gain and bandwidth of the circuit.
 
 ## **1:1 RATIO**
 ### **CIRCUIT 1: L=180nm**
