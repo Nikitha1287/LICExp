@@ -22,16 +22,8 @@ The output stays HIGH while the capacitor charges.
 
 Once the capacitor voltage reaches a certain level (2/3 of the power supply voltage), the timer automatically turns the output LOW again.
 
-The time the output stays HIGH depends on the values of the resistor (R) and capacitor (C), using the formula:
+The time the output stays HIGH depends on the values of the resistor (R) and capacitor (C).
 
-𝑇
-=
-1.1
-×
-𝑅
-×
-𝐶
-T=1.1×R×C
 After the output returns to LOW, it waits for the next trigger to repeat the process.
 
 
@@ -57,7 +49,6 @@ t = 1.098 RC
 
 The pulse width of the output rectangular pulse is W = 1.1 RC.
 
-### WORKING PRINCIPLE:
 
 The output waveforms are shown below
 
