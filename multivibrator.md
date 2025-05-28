@@ -61,7 +61,9 @@ fix R such that:
 R=V<sub>CC</sub>/3I<sub>min</sub>
 
 V<sub>CC</sub>=5V, I<sub>min</sub>=10uA;
-R=5/3 * 10 * 10 <SUP>-6</SUP>
+R=5/(3 * 10 * 10 <SUP>-6</SUP>) = 166kohm
+
+C=(0.5* 10<sup>-3</sup>/1.1 * 166 * 10<sup>3</sup>
 
 ### SIMULATION IN VLAB:
 
