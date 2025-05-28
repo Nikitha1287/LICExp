@@ -34,6 +34,13 @@ To compare the performance of Class AB and Folded Cascode OTAs in terms of:
 - Noise Performance
 
 ---
+## CIRCUIT:
+### FOLDED CASCODE
+![image](https://github.com/user-attachments/assets/e9b502ac-bbb7-47f7-abb4-76bd8c9290b3)
+### CLASS AB
+![image](https://github.com/user-attachments/assets/61f0fe97-1076-49bb-b79c-19b2dcb4a5ad)
+
+---
 
 ## 📊 Summary of Results
 
