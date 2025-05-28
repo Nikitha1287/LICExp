@@ -63,7 +63,19 @@ R=V<sub>CC</sub>/3I<sub>min</sub>
 V<sub>CC</sub>=5V, I<sub>min</sub>=10uA;
 R=5/(3 * 10 * 10 <SUP>-6</SUP>) = 166kohm
 
-C=(0.5* 10<sup>-3</sup>/1.1 * 166 * 10<sup>3</sup>
+C=(0.5* 10<sup>-3</sup>/1.1 * 166 * 10<sup>3</sup> = 0.0027uF.
+
+### DIAGRAM:
+
+![image](https://github.com/user-attachments/assets/f50458a4-42f6-4912-89df-6e6e338e6217)
+
+### RESULT:
+**THE TRIG PULSE:**
+![image](https://github.com/user-attachments/assets/f3af1dc7-64ca-4c47-96ef-2a402684d3a4)
+
+**THE OUTPUT GENERATED WAVEFORM:**
+![image](https://github.com/user-attachments/assets/3c94199c-09ec-4c2f-9449-9bcb3e75cbee)
+
 
 ### SIMULATION IN VLAB:
 
