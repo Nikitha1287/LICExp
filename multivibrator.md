@@ -164,7 +164,37 @@ In digital circuits, the astable multivibrator is frequently employed as a clock
 ### CIRCUIT:
 ![image](https://github.com/user-attachments/assets/415d4461-51f4-434b-87a7-ce6892d9a613)
 
+### PROCEDURE:
+1. Create the Astable Multivibrator:
+i. Place a 555 timer IC (use NE555 model or equivalent).
+ii. Connect two resistors Ra, Rb, and capacitor 𝐶 to configure the 555 in astable mode.
+iii. Use a voltage source (e.g., 5V) as Vcc.
+2.Simulate the Output:
+i. Run a transient analysis (e.g., tran 0 10ms) to observe the periodic square waveform at the output (pin 3).
 
+3. Build the Differentiator Circuit:
+i. Connect a capacitor and resistor in series from the astable output to ground.
+ii. Observe the output across the resistor to visualize edge spikes.
+
+4. Add the Negative Clipper:
+i. Insert a diode in parallel with the resistor in reverse bias to clip negative voltage spikes.
+ii. View the clipped output waveform.
+
+5. Create the Monostable Multivibrator:
+i. Add another 555 timer in monostable configuration.
+ii. Trigger its input (pin 2) using the clipped edge pulse.
+iii. Select R and C values to generate a 0.5 ms pulse (T = 1.1RC).
+
+6. Run Transient Analysis:
+i. Use .tran simulation (e.g., tran 0 10ms) and place probes at key nodes.
+ii. Verify waveforms at each stage: astable output, differentiator, clipper, and monostable output.
+
+7. Analyze Results:
+i. Measure ON/OFF times and pulse widths using cursors.
+ii. Confirm the monostable output pulse is approximately 0.5 ms.
+
+### RESULT:
+![image](https://github.com/user-attachments/assets/6de23f4e-fdfa-4e3f-b149-730da17d439c)
 
 
 
