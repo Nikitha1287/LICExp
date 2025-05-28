@@ -145,7 +145,8 @@ An astable multivibrator using the 555 timer IC continuously oscillates between 
 
 
 
-
+### SIMULATION IN VLAB:
+![image](https://github.com/user-attachments/assets/b580019d-44e1-4647-95fd-0440eaf1e3dd)
 
 
 
