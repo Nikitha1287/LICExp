@@ -53,3 +53,31 @@ The pulse width of the output rectangular pulse is W = 1.1 RC.
 The output waveforms are shown below
 
 ![image](https://github.com/user-attachments/assets/76bad3dd-7510-4c5c-9e4c-29c427ea525d)
+
+
+
+### SIMULATION IN VLAB:
+
+#### PROCEDURE:
+**STEP 1:** Connect the components as mentioned: (1-3), (2-4).
+
+**STEP 2:** Click on 'Check' button to check the connections. If connected connections are wrong, Make the right connection as per given instruction.
+
+**STEP 3:** If connections are right, Click on the'Start' button to perform the experiment.
+
+**STEP 4:** Toggle On/Off button to control the power to the system.
+
+**STEP 5:** Move the 'Voltage' range slider to fetch values into table.
+
+**STEP 6:** Click on 'Plot' button to plot the graph.
+
+![72d2928ebc264ad58f23188799b6d644 1](https://github.com/user-attachments/assets/8d407035-5ecc-497c-a0b0-6642aaf7d349)
+
+
+![2d63e6e104a942299a8bdcff0cd52d5c 1](https://github.com/user-attachments/assets/8336d963-7996-48d8-8360-d5019443dd61)
+
+
+
+![69b73a9e749b4603a37013b8a84543fd 1](https://github.com/user-attachments/assets/bdb542f7-cfc8-45f0-bb1a-7b89c26a241c)
+
+
