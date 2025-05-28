@@ -54,7 +54,14 @@ The output waveforms are shown below
 
 ![image](https://github.com/user-attachments/assets/76bad3dd-7510-4c5c-9e4c-29c427ea525d)
 
+### CALCULATION:
+t=1.1RC
+fix R such that:
 
+R=V<sub>CC</sub>/3I<sub>min</sub>
+
+V<sub>CC</sub>=5V, I<sub>min</sub>=10uA;
+R=5/3 * 10 * 10 <SUP>-6</SUP>
 
 ### SIMULATION IN VLAB:
 
