@@ -133,18 +133,33 @@ T = 1.1 × 𝑅 × 𝐶
 
 
 
-## MONOSTABLE MULTIVIBRATOR
+## ASTABLE MULTIVIBRATOR
 ### AIM:
-To design and simulate a monostable multivibrator using a 555 Timer IC that generates a pulse of width 1 ms using input trigger signals.
-
+To generate a pulse of width 1 ms using 555 timer IC, and analyze waveform shaping using a differentiator, clipper, and monostable multivibrator.
 
 ### THEORY:
 An astable multivibrator using the 555 timer IC continuously oscillates between high and low states, generating a square wave output without requiring an external trigger.
+Astable Multivibrator
+An astable multivibrator circuit based on the 555 timer IC generates a continuous square wave without requiring an external trigger. The timing cycle is set by two resistors, 
+𝑅𝑎 and Rb, and one capacitor 𝐶 .The high time (T_ON) and low time (T_OFF) are given by:
 
+T ON =0.693(Ra + Rb)C,  T OFF = 0.693(Rb)C
 
+Differentiator Circuit
+A differentiator highlights rapid changes in a signal. It converts a square waveform into short positive and negative spikes, centered around transitions. The basic RC differentiator has a capacitor in series with the input signal and a resistor to ground. Output spikes occur at the rising and falling edges of the input.
 
+Clipper Circuit
+A negative clipper blocks or “clips” the negative half of a signal using a diode and reference voltage. This leaves only positive-going spikes, which are suitable triggers for the monostable multivibrator.
 
+Monostable Multivibrator
+This 555 timer configuration produces a single, fixed-duration output pulse when triggered. It has one stable state (LOW), and a temporary HIGH state when a negative trigger is applied.
+The pulse width is:
 
+T=1.1RC
+
+The circuit is built to alternate between two stable states, resulting in a steady oscillation. 
+By changing the values of the resistors and capacitors in the circuit, the frequency and duty cycle of the output waveform can be altered.
+In digital circuits, the astable multivibrator is frequently employed as a clock source. The timing of data transfers between various components can be synchronized using the frequency of the output waveform.
 
 ### CIRCUIT:
 ![image](https://github.com/user-attachments/assets/415d4461-51f4-434b-87a7-ce6892d9a613)
