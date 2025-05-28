@@ -54,6 +54,21 @@ The output waveforms are shown below
 
 ![image](https://github.com/user-attachments/assets/76bad3dd-7510-4c5c-9e4c-29c427ea525d)
 
+### DIAGRAM:
+
+![image](https://github.com/user-attachments/assets/f50458a4-42f6-4912-89df-6e6e338e6217)
+
+### PROCEDURE:
+1. Open LTspice and create a new schematic.
+
+2. Place components: 555 timer IC (NE555), Resistor (R), Capacitor (C), Voltage source (V1 for Vcc, V2 for trigger), Ground (GND)
+
+3. Connect the 555 timer in monostable mode: Pin 1 → GND, Pin 8 → Vcc (e.g., 5V), Pin 4 (Reset) → Vcc, Pin 5 (Control Voltage) → 0.01 µF to GND, Pin 2 (Trigger) → Pulse input (V2), Pin 6 → Pin 7, Pin 7 → Resistor (R) → Vcc, Pin 6 → Capacitor (C) → GND, Pin 3 → Output node, Set the trigger source (V2): Use PULSE() with a brief low-time (e.g., PULSE(5 0 1m 10n 10n 0.1m 10m))
+
+4. Set simulation command: .tran 0 10ms to observe waveform
+
+5. Run the simulation and probe the output (Pin 3) to observe the HIGH pulse.
+
 ### CALCULATION:
 t=1.1RC
 fix R such that:
@@ -65,9 +80,7 @@ R=5/(3 * 10 * 10 <SUP>-6</SUP>) = 166kohm
 
 C=(0.5* 10<sup>-3</sup>/1.1 * 166 * 10<sup>3</sup> = 0.0027uF.
 
-### DIAGRAM:
 
-![image](https://github.com/user-attachments/assets/f50458a4-42f6-4912-89df-6e6e338e6217)
 
 ### RESULT:
 **THE TRIG PULSE:**
