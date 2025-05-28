@@ -81,3 +81,23 @@ The output waveforms are shown below
 ![69b73a9e749b4603a37013b8a84543fd 1](https://github.com/user-attachments/assets/bdb542f7-cfc8-45f0-bb1a-7b89c26a241c)
 
 
+### INFERENCE:
+1. The circuit stays LOW until triggered. The output of the monostable multivibrator is LOW by default and doesn’t change until a trigger is given.
+
+2. Generates a single pulse when triggered. When a negative trigger pulse is applied, the output goes HIGH for a short time and then returns to LOW automatically.
+
+3. The duration of the pulse depends on R and C. The width of the HIGH output pulse is controlled by the resistor and capacitor values using the formula:
+
+T = 1.1 × 𝑅 × 𝐶
+
+4. This makes it easy to adjust the timing by choosing suitable components.
+
+5. In this experiment, 0.5 ms pulse was achieved. By using a 0.1 µF capacitor and a resistor of around 4.54 kΩ, we got a pulse width close to 0.5 milliseconds, as expected from the formula.
+
+6. The output goes HIGH instantly when triggered. As soon as the trigger voltage drops below 1/3 of Vcc, the timer responds immediately and the output goes HIGH. Returns to LOW automatically after time delay. After the set time, the capacitor charges up to 2/3 of Vcc, which makes the output go LOW again without needing another input.
+
+7. Useful for time delay and pulse generation. This setup is a simple way to create accurate time delays or single output pulses, useful in digital circuits and control systems.
+
+8. Circuit works reliably and repeatedly. The timer responded consistently to multiple triggers, producing the same output pulse each time, showing it’s stable and reliable.
+
+
