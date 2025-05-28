@@ -145,13 +145,23 @@ An astable multivibrator using the 555 timer IC continuously oscillates between 
 
 
 
+
+### CIRCUIT:
+![image](https://github.com/user-attachments/assets/415d4461-51f4-434b-87a7-ce6892d9a613)
+
+
+
+
+
 ### SIMULATION IN VLAB:
 ![image](https://github.com/user-attachments/assets/b580019d-44e1-4647-95fd-0440eaf1e3dd)
 
+ACROSS CAPACITOR:
+![image](https://github.com/user-attachments/assets/7db47906-ed41-453e-be8f-70e20cd3299e)
 
 
-
-
+THE GENERATED OUTPUT WAVEFORM:
+![image](https://github.com/user-attachments/assets/2054c12f-4a44-4f8f-b241-4a7bfc6c35a4)
 
 
 
