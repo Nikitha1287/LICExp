@@ -1,5 +1,5 @@
 # MONOSTABLE AND ASTABLE MULTIVIBRATOR
-## MONOSTABLE MULTIVIBRSTOR
+## MONOSTABLE MULTIVIBRATOR
 
 ### AIM:
 To generate a 0.5 ms output pulse using a monostable multivibrator circuit triggered by external input pulses.
@@ -59,26 +59,23 @@ The output waveforms are shown below
 ### SIMULATION IN VLAB:
 
 #### PROCEDURE:
-**STEP 1:** Connect the components as mentioned: (1-3), (2-4).
-
-**STEP 2:** Click on 'Check' button to check the connections. If connected connections are wrong, Make the right connection as per given instruction.
-
-**STEP 3:** If connections are right, Click on the'Start' button to perform the experiment.
-
-**STEP 4:** Toggle On/Off button to control the power to the system.
-
-**STEP 5:** Move the 'Voltage' range slider to fetch values into table.
-
-**STEP 6:** Click on 'Plot' button to plot the graph.
-
-![72d2928ebc264ad58f23188799b6d644 1](https://github.com/user-attachments/assets/8d407035-5ecc-497c-a0b0-6642aaf7d349)
-
-
-![2d63e6e104a942299a8bdcff0cd52d5c 1](https://github.com/user-attachments/assets/8336d963-7996-48d8-8360-d5019443dd61)
+Connect the components as mentioned below: L1-L12, L14-L12, L16-L12, L4-L9, L8-L9, L9-L10, L3-L17, L11-L13, L7-L11, L6-L13, L5-L15.(For eg. click on 1 and then drag to 12 and so on.)
+Click on 'Check Connection' button to check the connections.
+If connected wrong, click on the wrong connection. Else click on 'Delete all connection' button to erase all the connections.
+Intially set R a=10 kΩ, C=1 µf, Vcc=5 V, Tin = 20 msec.
+Click on "Calculate" button.
+Now note the output voltage.
+Click on "Plot" button to plot, Trigger Input Voltage, Output Voltage, Capacitance Voltage
+Click on "Clear" button to clear the data.
+Repeat the experiment for another set of resistance value and capacitance value.
+Set the Resistance (R a) value (1 kΩ - 10 kΩ).
+Set the Capacitance (C) value .
+Set supply voltage (Vcc).
 
 
+![image](https://github.com/user-attachments/assets/dab08e60-6633-4803-a3e4-7bd7ec4b226d)
 
-![69b73a9e749b4603a37013b8a84543fd 1](https://github.com/user-attachments/assets/bdb542f7-cfc8-45f0-bb1a-7b89c26a241c)
+
 
 
 ### INFERENCE:
@@ -99,5 +96,30 @@ T = 1.1 × 𝑅 × 𝐶
 7. Useful for time delay and pulse generation. This setup is a simple way to create accurate time delays or single output pulses, useful in digital circuits and control systems.
 
 8. Circuit works reliably and repeatedly. The timer responded consistently to multiple triggers, producing the same output pulse each time, showing it’s stable and reliable.
+
+
+
+## MONOSTABLE MULTIVIBRATOR
+### AIM:
+To design and simulate a monostable multivibrator using a 555 Timer IC that generates a pulse of width 1 ms using input trigger signals.
+
+
+### THEORY:
+An astable multivibrator using the 555 timer IC continuously oscillates between high and low states, generating a square wave output without requiring an external trigger.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
