@@ -178,9 +178,7 @@ Assume V<sub>in</sub>
 <img src="https://github.com/user-attachments/assets/16424d0b-4d5d-4784-8c2b-a29376c23549" width="607.56" height = "400">
 
  #### **DC ANALYSIS:**
-
 **W = 3.57885u** for I<sub>copy</sub>=I<sub>ref</sub>
-
 
 <img src="https://github.com/user-attachments/assets/f611aa32-3610-4552-b0c4-a724645bcf21" width="400" height = "400">
 
@@ -193,19 +191,11 @@ Assume V<sub>in</sub>
 
 ![image](https://github.com/user-attachments/assets/c2236c80-77ff-486f-beb6-6c7b1669d5f5)
 
-
 ![image](https://github.com/user-attachments/assets/6d126716-1d05-4757-aaba-18bb4f4242bc)
 
 ### **CIRCUIT 1: L=500nm**
  #### **DC ANALYSIS:**
  ![Screenshot 2025-03-30 225843](https://github.com/user-attachments/assets/ed8cf634-9603-4ce8-88d9-33b2a374f710)
-
-
-
-
-
-
-
 
 ## **1:2 RATIO**
 ### **CIRCUIT 1: L=180nm**
@@ -216,7 +206,6 @@ Assume V<sub>in</sub>
  #### **DC ANALYSIS:**
  ![image](https://github.com/user-attachments/assets/a9a4f119-8ded-4883-9961-135b6ec0b280)
 
-
 #### **TRANSIENT ANALYSIS:**
 ![image](https://github.com/user-attachments/assets/88bb72fb-8b09-41d9-b6cc-65775208d73d)
 
@@ -224,31 +213,14 @@ Assume V<sub>in</sub>
  #### **AC ANALYSIS:**
  ![Screenshot 2025-03-30 213211](https://github.com/user-attachments/assets/8181f90d-ca92-4488-aa69-8b29e39a81b7)
 
- 
 ## **1:3 RATIO**
 ### **CIRCUIT 1: L=180nm**
 #### **DC ANALYSIS:**
 ![Screenshot 2025-03-30 214001](https://github.com/user-attachments/assets/8ff5ec67-fe70-43ac-8cd7-c2328bbfffe2)
-
 
 #### **TRANSIENT ANALYSIS:**
 ![image](https://github.com/user-attachments/assets/6d8a806a-fc18-4be9-91f0-301e0c7e2792)
 
 ![image](https://github.com/user-attachments/assets/5ec2e34d-006d-49fb-ad01-8ae17d6c9a9c)
 
-
 ![image](https://github.com/user-attachments/assets/72fbac04-593b-4aa1-9789-dac848447eca)
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
